@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.14">
+	<ConfigVersions>
+		<Metadata name="Catalog.Жанры" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec" configVersion="3e11fcd41d75184682582f9a0d4178ab00000000"/>
+		<Metadata name="Catalog.Жанры.Help" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec.1" configVersion="69ffbbc34cdf3f4ea23e4d5064741f3800000000"/>
+		<Metadata name="Catalog.Жанры.ManagerModule" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec.3" configVersion="10b38cdf76bca445a201fb136f22b50100000000"/>
+		<Metadata name="Catalog.Жанры.ObjectModule" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec.0" configVersion="ec307e345806064fa16c5466577add5600000000"/>
+		<Metadata name="Catalog.Жанры.Predefined" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec.1c" configVersion="715432772e21064b86507115ebda775600000000"/>
+		<Metadata name="Catalog.Кино" id="f60fdffa-cd0a-469a-8607-8a0b28b1f12a" configVersion="b9c79dc15d7f5e4e90c320d1f0b11e5100000000">
+			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.ДатаВыходаСерии" id="01f3b84f-df93-4de9-a613-7d60b253396d"/>
+			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.Просмотрена" id="1245109a-53f2-4887-a113-d4039d49057a"/>
+			<Metadata name="Catalog.Кино.Attribute.ГодОкончания" id="190d0f5a-3a94-4c79-9a1b-827c13d49c7d"/>
+			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.Описание" id="2e85f8fe-21a5-46a1-ab37-6f12450c25e3"/>
+			<Metadata name="Catalog.Кино.Attribute.Просмотрен" id="3739327d-6b81-4abd-955b-f537a210666b"/>
+			<Metadata name="Catalog.Кино.Attribute.Тип" id="40a72369-dda2-4f1d-9c33-5d719a380882"/>
+			<Metadata name="Catalog.Кино.Attribute.ГодВыпуска" id="57627584-4eed-4ff5-a2a5-cfb4e0211573"/>
+			<Metadata name="Catalog.Кино.TabularSection.Серии" id="5b5eae50-74e7-4eb8-a38d-81d04cf64ed3"/>
+			<Metadata name="Catalog.Кино.TabularSection.Страны.Attribute.Страна" id="63ccefa3-f845-4d6f-829f-14846063be83"/>
+			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.НазваниеСерии" id="7cfdb1f7-20ea-4b6e-a599-60958948fbe4"/>
+			<Metadata name="Catalog.Кино.Attribute.КодКинопоиск" id="8e3578f5-8da2-43c8-9af4-37b55859d6a2"/>
+			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.Сезон" id="8f655233-3f28-4e86-9843-2845e73ce6bf"/>
+			<Metadata name="Catalog.Кино.TabularSection.Жанры.Attribute.Жанр" id="9209ae50-45c9-418b-b148-f57f224f5daf"/>
+			<Metadata name="Catalog.Кино.Attribute.КодIMDB" id="9e30d5d6-05a1-4d7c-aff7-a09cd25ad12e"/>
+			<Metadata name="Catalog.Кино.Attribute.КоличествоСезонов" id="a5762c97-4b95-4745-803a-5c4903bc17a0"/>
+			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.Серия" id="b759d56b-5f46-4475-bfcd-a8ffa1dc9888"/>
+			<Metadata name="Catalog.Кино.TabularSection.Страны" id="c4d1e056-ed55-49aa-a1b0-a923bd12f7fa"/>
+			<Metadata name="Catalog.Кино.Attribute.ОригинальноеНазвание" id="eabccc78-c3bf-4622-ae23-8624f806f901"/>
+			<Metadata name="Catalog.Кино.Attribute.Описание" id="eb3aa751-bf58-4d2b-8ffb-ceb91a375956"/>
+			<Metadata name="Catalog.Кино.TabularSection.Жанры" id="f1bd0009-a672-4c1c-92b1-7d9df5cbfb60"/>
+		</Metadata>
+		<Metadata name="Catalog.Кино.Form.ФормаВыбора" id="583ff9e7-ea24-4bbe-9e93-8340edda43f8" configVersion="c9b133558cd250478b933766c5eb464f00000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаВыбора.Form" id="583ff9e7-ea24-4bbe-9e93-8340edda43f8.0" configVersion="12d23e61bd18c74daffffe0aca75f7d800000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаВыбора.Help" id="583ff9e7-ea24-4bbe-9e93-8340edda43f8.1" configVersion="d8ac149790a2e94a8d34077b6b12537800000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаСписка" id="4210ebd9-28ba-410f-892b-149853716a02" configVersion="09db92b912440e4c9d09c5b5ed70ac5200000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаСписка.Form" id="4210ebd9-28ba-410f-892b-149853716a02.0" configVersion="0746853ab7514c4bb95331bea5181ff300000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаСписка.Help" id="4210ebd9-28ba-410f-892b-149853716a02.1" configVersion="66c28ae0dcfe954ea0be126a75daf95300000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаЭлемента" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530" configVersion="09c5aea52f0f9746be27d6c1a6acbd3300000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаЭлемента.Form" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530.0" configVersion="1b8f922ff1f19d40b647897f6c1967aa00000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаЭлемента.Help" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530.1" configVersion="f7833ca8d858214e95193e3097313f3700000000"/>
+		<Metadata name="Catalog.Кино.Help" id="f60fdffa-cd0a-469a-8607-8a0b28b1f12a.1" configVersion="00132d9ae345c54ca9002198920d318700000000"/>
+		<Metadata name="Catalog.Кино.ManagerModule" id="f60fdffa-cd0a-469a-8607-8a0b28b1f12a.3" configVersion="4f855520aac499419e77aa3911ed844100000000"/>
+		<Metadata name="Catalog.Кино.ObjectModule" id="f60fdffa-cd0a-469a-8607-8a0b28b1f12a.0" configVersion="8aae06807015204fac4841b95c6337f600000000"/>
+		<Metadata name="Catalog.Кино.Predefined" id="f60fdffa-cd0a-469a-8607-8a0b28b1f12a.1c" configVersion="c6963fadf6fd0e448b2d12f282928d6200000000"/>
+		<Metadata name="Catalog.Страны" id="57e9b420-61a6-4167-b153-06002ee6775f" configVersion="76a11ab4363fa441b48df2d280dde56200000000"/>
+		<Metadata name="Catalog.Страны.Help" id="57e9b420-61a6-4167-b153-06002ee6775f.1" configVersion="19416ce2627ebf428ca94ec00b336fb700000000"/>
+		<Metadata name="Catalog.Страны.ManagerModule" id="57e9b420-61a6-4167-b153-06002ee6775f.3" configVersion="01770c17e772c94b9773c1ee35732cc900000000"/>
+		<Metadata name="Catalog.Страны.ObjectModule" id="57e9b420-61a6-4167-b153-06002ee6775f.0" configVersion="b35d0b735f9e3f4ab294a56e208dad3600000000"/>
+		<Metadata name="Catalog.Страны.Predefined" id="57e9b420-61a6-4167-b153-06002ee6775f.1c" configVersion="96217932469ce54e88a21bd5cf99eca600000000"/>
+		<Metadata name="Configuration.Кино" id="a057eabd-a60d-4303-97a3-9331473edd76" configVersion="41ef98decd01704688fac62971f1cbcf00000000"/>
+		<Metadata name="Configuration.Кино.HomePageWorkArea" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.8" configVersion="a9ace78ca04ed7428decec639c26fa7f00000000"/>
+		<Metadata name="Enum.ТипКино" id="3f20c33c-e08d-4168-9016-1aaa709b2988" configVersion="339c2cf979c90943a03b42238e9338ad00000000">
+			<Metadata name="Enum.ТипКино.EnumValue.Мультсериал" id="08f0d0b7-4ade-4a80-87ed-2db6e3ad22f6"/>
+			<Metadata name="Enum.ТипКино.EnumValue.Мультфильм" id="3f96b984-c456-4004-acac-f3ae61973720"/>
+			<Metadata name="Enum.ТипКино.EnumValue.Фильм" id="88459a67-e979-40e2-99fd-a4b01e97b7ae"/>
+			<Metadata name="Enum.ТипКино.EnumValue.Сериал" id="ae27e483-d239-4471-b672-e9897e85a0b1"/>
+		</Metadata>
+		<Metadata name="Enum.ТипКино.ManagerModule" id="3f20c33c-e08d-4168-9016-1aaa709b2988.0" configVersion="6b306cef838dc1489eb72aec7c226ede00000000"/>
+		<Metadata name="Language.Русский" id="b13a943a-063d-4354-883d-1cbccc60faa5" configVersion="09ad045df21d8b4f9fcfe9c820e4c0fa00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
