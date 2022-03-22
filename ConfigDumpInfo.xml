@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.14">
 	<ConfigVersions>
-		<Metadata name="Catalog.Жанры" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec" configVersion="3e11fcd41d75184682582f9a0d4178ab00000000"/>
+		<Metadata name="Catalog.Жанры" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec" configVersion="3d0e9dd756a51e43aafa90423c2e354300000000"/>
 		<Metadata name="Catalog.Жанры.Help" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec.1" configVersion="69ffbbc34cdf3f4ea23e4d5064741f3800000000"/>
 		<Metadata name="Catalog.Жанры.ManagerModule" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec.3" configVersion="10b38cdf76bca445a201fb136f22b50100000000"/>
 		<Metadata name="Catalog.Жанры.ObjectModule" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec.0" configVersion="ec307e345806064fa16c5466577add5600000000"/>
@@ -31,8 +31,8 @@
 		<Metadata name="Catalog.Кино.Form.ФормаВыбора" id="583ff9e7-ea24-4bbe-9e93-8340edda43f8" configVersion="c9b133558cd250478b933766c5eb464f00000000"/>
 		<Metadata name="Catalog.Кино.Form.ФормаВыбора.Form" id="583ff9e7-ea24-4bbe-9e93-8340edda43f8.0" configVersion="12d23e61bd18c74daffffe0aca75f7d800000000"/>
 		<Metadata name="Catalog.Кино.Form.ФормаВыбора.Help" id="583ff9e7-ea24-4bbe-9e93-8340edda43f8.1" configVersion="d8ac149790a2e94a8d34077b6b12537800000000"/>
-		<Metadata name="Catalog.Кино.Form.ФормаСписка" id="4210ebd9-28ba-410f-892b-149853716a02" configVersion="09db92b912440e4c9d09c5b5ed70ac5200000000"/>
-		<Metadata name="Catalog.Кино.Form.ФормаСписка.Form" id="4210ebd9-28ba-410f-892b-149853716a02.0" configVersion="0746853ab7514c4bb95331bea5181ff300000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаСписка" id="4210ebd9-28ba-410f-892b-149853716a02" configVersion="27993a2e13af7f4887c8c1db4ecbe18000000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаСписка.Form" id="4210ebd9-28ba-410f-892b-149853716a02.0" configVersion="fb1045a4c33b4147b5d727c7cb54a58800000000"/>
 		<Metadata name="Catalog.Кино.Form.ФормаСписка.Help" id="4210ebd9-28ba-410f-892b-149853716a02.1" configVersion="66c28ae0dcfe954ea0be126a75daf95300000000"/>
 		<Metadata name="Catalog.Кино.Form.ФормаЭлемента" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530" configVersion="09c5aea52f0f9746be27d6c1a6acbd3300000000"/>
 		<Metadata name="Catalog.Кино.Form.ФормаЭлемента.Form" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530.0" configVersion="1b8f922ff1f19d40b647897f6c1967aa00000000"/>
@@ -46,8 +46,9 @@
 		<Metadata name="Catalog.Страны.ManagerModule" id="57e9b420-61a6-4167-b153-06002ee6775f.3" configVersion="01770c17e772c94b9773c1ee35732cc900000000"/>
 		<Metadata name="Catalog.Страны.ObjectModule" id="57e9b420-61a6-4167-b153-06002ee6775f.0" configVersion="b35d0b735f9e3f4ab294a56e208dad3600000000"/>
 		<Metadata name="Catalog.Страны.Predefined" id="57e9b420-61a6-4167-b153-06002ee6775f.1c" configVersion="96217932469ce54e88a21bd5cf99eca600000000"/>
-		<Metadata name="Configuration.Кино" id="a057eabd-a60d-4303-97a3-9331473edd76" configVersion="41ef98decd01704688fac62971f1cbcf00000000"/>
+		<Metadata name="Configuration.Кино" id="a057eabd-a60d-4303-97a3-9331473edd76" configVersion="886d9321d19e5143a7a5cadbdbcf23e800000000"/>
 		<Metadata name="Configuration.Кино.HomePageWorkArea" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.8" configVersion="a9ace78ca04ed7428decec639c26fa7f00000000"/>
+		<Metadata name="Configuration.Кино.MainSectionCommandInterface" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.9" configVersion="4eb98b7627297649bc0fcb9dd32a7f1900000000"/>
 		<Metadata name="Enum.ТипКино" id="3f20c33c-e08d-4168-9016-1aaa709b2988" configVersion="339c2cf979c90943a03b42238e9338ad00000000">
 			<Metadata name="Enum.ТипКино.EnumValue.Мультсериал" id="08f0d0b7-4ade-4a80-87ed-2db6e3ad22f6"/>
 			<Metadata name="Enum.ТипКино.EnumValue.Мультфильм" id="3f96b984-c456-4004-acac-f3ae61973720"/>

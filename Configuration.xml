@@ -197,7 +197,7 @@
 			</UsedMobileApplicationFunctionalities>
 			<StandaloneConfigurationRestrictionRoles/>
 			<MobileApplicationURLs/>
-			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
+			<MainClientApplicationWindowMode>Workplace</MainClientApplicationWindowMode>
 			<DefaultInterface/>
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -231,14 +231,14 @@
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_21</CompatibilityMode>
+			<CompatibilityMode>Version8_3_18</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Catalog>Жанры</Catalog>
-			<Catalog>Страны</Catalog>
 			<Catalog>Кино</Catalog>
+			<Catalog>Страны</Catalog>
 			<Enum>ТипКино</Enum>
 		</ChildObjects>
 	</Configuration>
