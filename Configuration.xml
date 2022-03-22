@@ -50,7 +50,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>0.0.0.1</Version>
+			<Version>0.0.0.2</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_movie_simple_v1</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -236,6 +236,18 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Style>СтильОформленияЗеленый</Style>
+			<Style>СтильОформленияРозовый</Style>
+			<Style>СтильОформленияСерый</Style>
+			<Style>СтильОформленияСиний</Style>
+			<Style>СтильОформленияТемный</Style>
+			<CommonPicture>СтильОформления_ПоУмолчанию</CommonPicture>
+			<CommonPicture>СтильОформленияЗеленый</CommonPicture>
+			<CommonPicture>СтильОформленияРозовый</CommonPicture>
+			<CommonPicture>СтильОформленияСерый</CommonPicture>
+			<CommonPicture>СтильОформленияСиний</CommonPicture>
+			<CommonPicture>СтильОформленияТемный</CommonPicture>
+			<CommonForm>СменитьСтиль</CommonForm>
 			<Catalog>Жанры</Catalog>
 			<Catalog>Кино</Catalog>
 			<Catalog>Страны</Catalog>

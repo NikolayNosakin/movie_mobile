@@ -157,6 +157,11 @@
 					<CommandName>Form.Command.Страны</CommandName>
 					<ExtendedTooltip name="СтраныРасширеннаяПодсказка" id="50"/>
 				</Button>
+				<Button name="ИзменитьСтиль" id="51">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.ИзменитьСтиль</CommandName>
+					<ExtendedTooltip name="ИзменитьСтильРасширеннаяПодсказка" id="52"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -225,6 +230,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Страны</Action>
+		</Command>
+		<Command name="ИзменитьСтиль" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить стиль</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить стиль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьСтиль</Action>
 		</Command>
 	</Commands>
 </Form>
