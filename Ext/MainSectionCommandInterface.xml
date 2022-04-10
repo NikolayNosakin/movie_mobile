@@ -16,7 +16,12 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:76c928bd-2362-49aa-a57e-f630d59a8c91">
+		<Command name="Constant.kinopoisk_unofficial_api_token.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.СтильОформления.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

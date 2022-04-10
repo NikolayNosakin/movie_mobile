@@ -45,6 +45,7 @@
 		</InputField>
 		<UsualGroup name="Группа7" id="114">
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="115"/>
@@ -56,6 +57,7 @@
 				</InputField>
 				<Button name="ОткрытьСсылкуIMDB" id="116">
 					<Type>Hyperlink</Type>
+					<Representation>Picture</Representation>
 					<CommandName>Form.Command.ОткрытьСсылкуIMDB</CommandName>
 					<ExtendedTooltip name="ОткрытьСсылкуIMDBРасширеннаяПодсказка" id="117"/>
 				</Button>
@@ -75,8 +77,15 @@
 				</InputField>
 				<Button name="ОткрытьСсылкуКинопоиск" id="40">
 					<Type>Hyperlink</Type>
+					<Representation>Picture</Representation>
 					<CommandName>Form.Command.ОткрытьСсылкуКинопоиск</CommandName>
 					<ExtendedTooltip name="ОткрытьСсылкуКинопоискРасширеннаяПодсказка" id="41"/>
+				</Button>
+				<Button name="ФормаЗаполнитьПоКинопоиску" id="118" DisplayImportance="VeryHigh">
+					<Type>Hyperlink</Type>
+					<Representation>Picture</Representation>
+					<CommandName>Form.Command.ЗаполнитьПоКинопоиску</CommandName>
+					<ExtendedTooltip name="ФормаЗаполнитьПоКинопоискуРасширеннаяПодсказка" id="119"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -330,6 +339,10 @@
 					<v8:content>Открыть ссылку кинопоиск</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoExternalURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>ОткрытьСсылкуКинопоиск</Action>
 		</Command>
 		<Command name="ЗаполнитьСерииПоСезону" id="4">
@@ -345,6 +358,10 @@
 					<v8:content>Заполнить серии по сезону</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>ЗаполнитьСерииПоСезону</Action>
 		</Command>
 		<Command name="ОтметитьПросмотренные" id="5">
@@ -399,7 +416,30 @@
 					<v8:content>Открыть ссылку кинопоиск</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoExternalURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>ОткрытьСсылкуIMDB</Action>
+		</Command>
+		<Command name="ЗаполнитьПоКинопоиску" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по кинопоиску</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по кинопоиску</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Reread</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьПоКинопоиску</Action>
 		</Command>
 	</Commands>
 </Form>

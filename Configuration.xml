@@ -50,7 +50,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>0.0.0.2</Version>
+			<Version>0.0.0.3</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_movie_simple_v1</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -197,7 +197,7 @@
 			</UsedMobileApplicationFunctionalities>
 			<StandaloneConfigurationRestrictionRoles/>
 			<MobileApplicationURLs/>
-			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
+			<MainClientApplicationWindowMode>Workplace</MainClientApplicationWindowMode>
 			<DefaultInterface/>
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -241,17 +241,16 @@
 			<Style>СтильОформленияСерый</Style>
 			<Style>СтильОформленияСиний</Style>
 			<Style>СтильОформленияТемный</Style>
-			<CommonPicture>СтильОформления_ПоУмолчанию</CommonPicture>
-			<CommonPicture>СтильОформленияЗеленый</CommonPicture>
-			<CommonPicture>СтильОформленияРозовый</CommonPicture>
-			<CommonPicture>СтильОформленияСерый</CommonPicture>
-			<CommonPicture>СтильОформленияСиний</CommonPicture>
-			<CommonPicture>СтильОформленияТемный</CommonPicture>
-			<CommonForm>СменитьСтиль</CommonForm>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonModule>kinopoisk_unofficial_api</CommonModule>
+			<Constant>kinopoisk_unofficial_api_token</Constant>
+			<Constant>СтильОформления</Constant>
+			<CommonForm>Настройки</CommonForm>
 			<Catalog>Жанры</Catalog>
 			<Catalog>Кино</Catalog>
 			<Catalog>Страны</Catalog>
-			<Enum>ТипКино</Enum>
+			<Enum>ТипыКино</Enum>
+			<Enum>СтилиОформления</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
