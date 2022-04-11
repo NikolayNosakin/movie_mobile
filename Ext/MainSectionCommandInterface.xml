@@ -21,6 +21,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Constant.ИспользуетсяЗаполнениеИзКинопоискаПоАПИ.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.СтильОформления.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
