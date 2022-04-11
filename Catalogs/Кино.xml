@@ -299,7 +299,7 @@
 			<DefaultObjectForm>Catalog.Кино.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm>Catalog.Кино.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm>Catalog.Кино.Form.ФормаВыбора</DefaultChoiceForm>
+			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -1194,7 +1194,6 @@
 			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
-			<Form>ФормаВыбора</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

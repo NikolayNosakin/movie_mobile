@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -17,12 +17,47 @@
 		</InputField>
 		<InputField name="Стиль" id="4">
 			<DataPath>Стиль</DataPath>
+			<DropListButton>false</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ClearButton>false</ClearButton>
+			<SpinButton>false</SpinButton>
+			<OpenButton>false</OpenButton>
+			<CreateButton>false</CreateButton>
 			<ContextMenu name="СтильКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="СтильРасширеннаяПодсказка" id="6"/>
 			<Events>
 				<Event name="OnChange">СтильПриИзменении</Event>
 			</Events>
 		</InputField>
+		<Button name="СохранитьДанные" id="7">
+			<Type>Hyperlink</Type>
+			<CommandName>Form.Command.СохранитьДанные</CommandName>
+			<ExtendedTooltip name="СохранитьДанныеРасширеннаяПодсказка" id="8"/>
+		</Button>
+		<PictureDecoration name="ДлительнаяОперация" id="11">
+			<Visible>false</Visible>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Длительная операция</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<Picture>
+				<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="ДлительнаяОперацияКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ДлительнаяОперацияРасширеннаяПодсказка" id="13"/>
+		</PictureDecoration>
+		<Button name="ВосстановитьДанные" id="9">
+			<Type>Hyperlink</Type>
+			<CommandName>Form.Command.ВосстановитьДанные</CommandName>
+			<ExtendedTooltip name="ВосстановитьДанныеРасширеннаяПодсказка" id="10"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="kinopoisk_unofficial_api_token" id="1">
@@ -52,4 +87,36 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="СохранитьДанные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьДанные</Action>
+		</Command>
+		<Command name="ВосстановитьДанные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВосстановитьДанные</Action>
+		</Command>
+	</Commands>
 </Form>

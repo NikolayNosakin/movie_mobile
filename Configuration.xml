@@ -44,13 +44,12 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_21</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
-				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">MobilePlatformApplication</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>0.0.0.3</Version>
+			<Version>1.0.5.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_movie_simple_v1</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -231,7 +230,7 @@
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_18</CompatibilityMode>
+			<CompatibilityMode>Version8_3_20</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -242,15 +241,19 @@
 			<Style>СтильОформленияСиний</Style>
 			<Style>СтильОформленияТемный</Style>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>ДлительнаяОперация48</CommonPicture>
 			<CommonModule>kinopoisk_unofficial_api</CommonModule>
+			<CommonModule>СохранениеВосстановлениеДанныхСервер</CommonModule>
+			<FunctionalOption>ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</FunctionalOption>
 			<Constant>kinopoisk_unofficial_api_token</Constant>
+			<Constant>ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</Constant>
 			<Constant>СтильОформления</Constant>
 			<CommonForm>Настройки</CommonForm>
 			<Catalog>Жанры</Catalog>
 			<Catalog>Кино</Catalog>
 			<Catalog>Страны</Catalog>
-			<Enum>ТипыКино</Enum>
 			<Enum>СтилиОформления</Enum>
+			<Enum>ТипыКино</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
