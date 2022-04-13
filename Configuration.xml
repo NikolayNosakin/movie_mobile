@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.0.5.1</Version>
+			<Version>1.0.7.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_movie_simple_v1</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -242,6 +242,7 @@
 			<Style>СтильОформленияТемный</Style>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>ДлительнаяОперация48</CommonPicture>
+			<CommonPicture>СинхронизацияДанных</CommonPicture>
 			<CommonModule>kinopoisk_unofficial_api</CommonModule>
 			<CommonModule>СохранениеВосстановлениеДанныхСервер</CommonModule>
 			<FunctionalOption>ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</FunctionalOption>
