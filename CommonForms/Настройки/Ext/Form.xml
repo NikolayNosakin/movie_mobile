@@ -7,14 +7,39 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="kinopoisk_unofficial_api_token" id="1">
-			<DataPath>kinopoisk_unofficial_api_token</DataPath>
-			<ContextMenu name="kinopoisk_unofficial_api_tokenКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="kinopoisk_unofficial_api_tokenРасширеннаяПодсказка" id="3"/>
-			<Events>
-				<Event name="OnChange">kinopoisk_unofficial_api_tokenПриИзменении</Event>
-			</Events>
-		</InputField>
+		<UsualGroup name="Группа1" id="16">
+			<Height>1</Height>
+			<Group>AlwaysHorizontal</Group>
+			<HorizontalAlign>Left</HorizontalAlign>
+			<VerticalAlign>Center</VerticalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<InputField name="kinopoisk_unofficial_api_token" id="1">
+					<DataPath>kinopoisk_unofficial_api_token</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<Height>1</Height>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<MaxHeight>2</MaxHeight>
+					<MultiLine>true</MultiLine>
+					<HeightControlVariant>UseContentHeight</HeightControlVariant>
+					<ContextMenu name="kinopoisk_unofficial_api_tokenКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="kinopoisk_unofficial_api_tokenРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="OnChange">kinopoisk_unofficial_api_tokenПриИзменении</Event>
+					</Events>
+				</InputField>
+				<Button name="СправкаАПИ" id="14">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<Height>2</Height>
+					<CommandName>Form.Command.СправкаАПИ</CommandName>
+					<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ExtendedTooltip name="СправкаАПИРасширеннаяПодсказка" id="15"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<InputField name="Стиль" id="4">
 			<DataPath>Стиль</DataPath>
 			<DropListButton>false</DropListButton>
@@ -117,6 +142,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВосстановитьДанные</Action>
+		</Command>
+		<Command name="СправкаАПИ" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>?</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справка АПИ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СправкаАПИ</Action>
 		</Command>
 	</Commands>
 </Form>

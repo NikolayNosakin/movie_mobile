@@ -98,13 +98,25 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="b215cf61-cab0-4271-a0c5-643f5b04d4c4">
+			<EnumValue uuid="9f4aa560-c617-4838-805f-9d2a0b8faee1">
 				<Properties>
-					<Name>СтильОформленияТемный</Name>
+					<Name>СтильОформленияТемноСерый</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Темный</v8:content>
+							<v8:content>Тёмно-серый</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b215cf61-cab0-4271-a0c5-643f5b04d4c4">
+				<Properties>
+					<Name>СтильОформленияЧерный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Черный</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

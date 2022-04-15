@@ -29,30 +29,31 @@
 		<Metadata name="Catalog.Кино.Form.ФормаЭлемента" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530" configVersion="c1b838e8f6edb04680e64a270e63c07300000000"/>
 		<Metadata name="Catalog.Кино.Form.ФормаЭлемента.Form" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530.0" configVersion="dc792225b2cca74086023d6861607d6f00000000"/>
 		<Metadata name="Catalog.Страны" id="57e9b420-61a6-4167-b153-06002ee6775f" configVersion="fce154df1577a74b9ef8d25fd1c6551f00000000"/>
-		<Metadata name="CommonForm.Настройки" id="4d04dcc6-9cd9-4317-a9b7-e4d0762b96b3" configVersion="a79f4bf231b1c74f90be1c4f5d6e262800000000"/>
-		<Metadata name="CommonForm.Настройки.Form" id="4d04dcc6-9cd9-4317-a9b7-e4d0762b96b3.0" configVersion="d27f36e0a2c99a45b244da9372a6376100000000"/>
+		<Metadata name="CommonForm.Настройки" id="4d04dcc6-9cd9-4317-a9b7-e4d0762b96b3" configVersion="f8389f7b55a85e46ab1dd71af008e41700000000"/>
+		<Metadata name="CommonForm.Настройки.Form" id="4d04dcc6-9cd9-4317-a9b7-e4d0762b96b3.0" configVersion="a7c938f2ffef5a468c2b5b46315b8f9000000000"/>
 		<Metadata name="CommonModule.kinopoisk_unofficial_api" id="db0031c3-f450-4439-a4db-c4e69f502e98" configVersion="720ed5aa36fa5745afa9d7fefa53bd3f00000000"/>
 		<Metadata name="CommonModule.kinopoisk_unofficial_api.Module" id="db0031c3-f450-4439-a4db-c4e69f502e98.0" configVersion="a2315062c3eeb8459117f2ba4046849e00000000"/>
-		<Metadata name="CommonModule.СохранениеВосстановлениеДанныхСервер" id="83dbe358-56ce-42e8-b0f1-4e083a0f99b1" configVersion="8bcc19c432515049aecd00832fe6faed00000000"/>
-		<Metadata name="CommonModule.СохранениеВосстановлениеДанныхСервер.Module" id="83dbe358-56ce-42e8-b0f1-4e083a0f99b1.0" configVersion="ec9bf18ef744ad43acb5f7e6cf72dc0700000000"/>
+		<Metadata name="CommonModule.СохранениеВосстановлениеДанныхСервер" id="83dbe358-56ce-42e8-b0f1-4e083a0f99b1" configVersion="6b55de542681e04fbee64eeec1920f3700000000"/>
+		<Metadata name="CommonModule.СохранениеВосстановлениеДанныхСервер.Module" id="83dbe358-56ce-42e8-b0f1-4e083a0f99b1.0" configVersion="861e4b8f8fc66245b57beebae4fa5be600000000"/>
 		<Metadata name="CommonPicture.ДлительнаяОперация48" id="003e6e68-4528-4fa7-8e37-9dee356bf962" configVersion="b86986a3cf00414794befabada863a9c00000000"/>
 		<Metadata name="CommonPicture.ДлительнаяОперация48.Picture" id="003e6e68-4528-4fa7-8e37-9dee356bf962.0" configVersion="3b313b487aba3a4aaba900a4bdea7f0200000000"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="f0486de7-ea5c-467e-88f2-35ac1cb9d094" configVersion="8ff69725db77604a949118d87878d2c900000000"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму.Picture" id="f0486de7-ea5c-467e-88f2-35ac1cb9d094.0" configVersion="d63c3d37b9169f44a8744a333dea2b1100000000"/>
 		<Metadata name="CommonPicture.СинхронизацияДанных" id="e59168d6-698c-46ee-b485-1f1fb5493fe1" configVersion="3dcf9879ee1a6245ac3f0da47ae83bad00000000"/>
 		<Metadata name="CommonPicture.СинхронизацияДанных.Picture" id="e59168d6-698c-46ee-b485-1f1fb5493fe1.0" configVersion="f01dd86e716d234dae2e9597cdbba7ff00000000"/>
-		<Metadata name="Configuration.Кино" id="a057eabd-a60d-4303-97a3-9331473edd76" configVersion="5bc89ca2a2009647a9b796b4b0ce2a7100000000"/>
+		<Metadata name="Configuration.Кино" id="a057eabd-a60d-4303-97a3-9331473edd76" configVersion="a941b77c984b544ab9b0a2a12e802d7d00000000"/>
 		<Metadata name="Configuration.Кино.HomePageWorkArea" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.8" configVersion="e7c2039ea649894abab7f8c6fee6524d00000000"/>
 		<Metadata name="Configuration.Кино.MainSectionCommandInterface" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.9" configVersion="38ca394555d3424db6dc0c2b89bd45a900000000"/>
-		<Metadata name="Configuration.Кино.SessionModule" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.7" configVersion="f10280c009180f44a653ea6f3c76ca6100000000"/>
+		<Metadata name="Configuration.Кино.SessionModule" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.7" configVersion="ebcec1df3634db43bcf318f0463d21fe00000000"/>
 		<Metadata name="Constant.kinopoisk_unofficial_api_token" id="f621c31c-62b8-4ecf-b0c2-8e0f176b3f02" configVersion="71800f0322cc734796c9a1c975e72eae00000000"/>
 		<Metadata name="Constant.ИспользуетсяЗаполнениеИзКинопоискаПоАПИ" id="97252701-5aca-4d65-bfd3-38bcd8d5d897" configVersion="5beb1257e3377a4aabc901ef168074a500000000"/>
 		<Metadata name="Constant.СтильОформления" id="b37513ee-1c7e-49ef-9f62-fd03eae68fd4" configVersion="5a794036d7b86246b3baeca47a24ebbc00000000"/>
-		<Metadata name="Enum.СтилиОформления" id="f4cd719c-2e8c-4cf8-92ab-fb0255311b87" configVersion="197b3737f36cc344ac9ed3cb68db485200000000">
+		<Metadata name="Enum.СтилиОформления" id="f4cd719c-2e8c-4cf8-92ab-fb0255311b87" configVersion="def759b2e932704da5e7e3c5379c29c200000000">
 			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияСиний" id="7487cb42-beff-49df-9fd8-4f73aefb0801"/>
+			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияТемноСерый" id="9f4aa560-c617-4838-805f-9d2a0b8faee1"/>
 			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияСерый" id="a02f0b18-7f1b-47e7-bb45-2e8b71e3123e"/>
 			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияЗеленый" id="b1461c79-81fe-4af1-af96-0d28c9294a5a"/>
-			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияТемный" id="b215cf61-cab0-4271-a0c5-643f5b04d4c4"/>
+			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияЧерный" id="b215cf61-cab0-4271-a0c5-643f5b04d4c4"/>
 			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияРозовый" id="d90ea9cf-2bda-471e-8459-121882268ca3"/>
 			<Metadata name="Enum.СтилиОформления.EnumValue.ПоУмолчанию" id="e90033ac-139f-47df-af00-b92fdcbede09"/>
 		</Metadata>
@@ -72,7 +73,9 @@
 		<Metadata name="Style.СтильОформленияСерый.Style" id="d927465e-fd03-4d1f-9168-e30f0e8efd33.0" configVersion="4406c9bb64e85c4bb87fdd5af2cd20b600000000"/>
 		<Metadata name="Style.СтильОформленияСиний" id="4d97618b-9e8d-4528-9196-b39edc66cf8b" configVersion="6824ba06c36bf94ea9117b5e4a83653800000000"/>
 		<Metadata name="Style.СтильОформленияСиний.Style" id="4d97618b-9e8d-4528-9196-b39edc66cf8b.0" configVersion="6716f3ddb1a3bc48b1a8a912ca8249fe00000000"/>
-		<Metadata name="Style.СтильОформленияТемный" id="5d3923d3-02bf-45bd-8601-e51517a39934" configVersion="a56a37dac01d6d4ba9168e31abee75c300000000"/>
-		<Metadata name="Style.СтильОформленияТемный.Style" id="5d3923d3-02bf-45bd-8601-e51517a39934.0" configVersion="94e2c56656545547a68c47559d89de9000000000"/>
+		<Metadata name="Style.СтильОформленияТемноСерый" id="80c28a2d-0b86-4d55-97ce-65f43a5f89c0" configVersion="7d39dc2a27002047a3f3190796d749d500000000"/>
+		<Metadata name="Style.СтильОформленияТемноСерый.Style" id="80c28a2d-0b86-4d55-97ce-65f43a5f89c0.0" configVersion="9d522e4eea6127438973f192b8b4a3b100000000"/>
+		<Metadata name="Style.СтильОформленияЧерный" id="5d3923d3-02bf-45bd-8601-e51517a39934" configVersion="16930da50c654b4688c2c2470133cdae00000000"/>
+		<Metadata name="Style.СтильОформленияЧерный.Style" id="5d3923d3-02bf-45bd-8601-e51517a39934.0" configVersion="94e2c56656545547a68c47559d89de9000000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
