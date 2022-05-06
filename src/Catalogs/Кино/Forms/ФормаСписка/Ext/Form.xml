@@ -48,7 +48,8 @@
 			<ChildItems>
 				<CheckBoxField name="СкрытьПросмотренные" id="58">
 					<DataPath>СкрытьПросмотренные</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
+					<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+					<CheckBoxType>CheckBox</CheckBoxType>
 					<ContextMenu name="СкрытьПросмотренныеКонтекстноеМеню" id="59"/>
 					<ExtendedTooltip name="СкрытьПросмотренныеРасширеннаяПодсказка" id="60"/>
 					<Events>
@@ -249,6 +250,7 @@
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<CommandName>Form.StandardCommand.Create</CommandName>
 			<BorderColor>#848484</BorderColor>
+			<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 			<Shape>Oval</Shape>
 			<ExtendedTooltip name="СоздатьРасширеннаяПодсказка" id="68"/>
 		</Button>
@@ -273,16 +275,19 @@
 				<Button name="Жанры" id="47">
 					<Type>Hyperlink</Type>
 					<CommandName>Form.Command.Жанры</CommandName>
+					<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 					<ExtendedTooltip name="ЖанрыРасширеннаяПодсказка" id="48"/>
 				</Button>
 				<Button name="Страны" id="49">
 					<Type>Hyperlink</Type>
 					<CommandName>Form.Command.Страны</CommandName>
+					<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 					<ExtendedTooltip name="СтраныРасширеннаяПодсказка" id="50"/>
 				</Button>
 				<Button name="Настройки" id="56">
 					<Type>Hyperlink</Type>
 					<CommandName>Form.Command.Настройки</CommandName>
+					<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 					<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="57"/>
 				</Button>
 			</ChildItems>
