@@ -26,8 +26,8 @@
 		</Metadata>
 		<Metadata name="Catalog.Кино.Form.ФормаСписка" id="4210ebd9-28ba-410f-892b-149853716a02" configVersion="cfebe8b928a4cc44a83e0d3bf71960d400000000"/>
 		<Metadata name="Catalog.Кино.Form.ФормаСписка.Form" id="4210ebd9-28ba-410f-892b-149853716a02.0" configVersion="6bf5f76fd6ac2f4c8bf6740249f4ab4200000000"/>
-		<Metadata name="Catalog.Кино.Form.ФормаЭлемента" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530" configVersion="5931717d97291049a8a34ee65186ece000000000"/>
-		<Metadata name="Catalog.Кино.Form.ФормаЭлемента.Form" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530.0" configVersion="2e4b6595f9d1f14e92b8359a4526330c00000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаЭлемента" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530" configVersion="e59310fefb67ab429ba528f3eefcd61900000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаЭлемента.Form" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530.0" configVersion="7504fd1e112f9f41912b3cf07ab6f1af00000000"/>
 		<Metadata name="Catalog.Страны" id="57e9b420-61a6-4167-b153-06002ee6775f" configVersion="ff91c97cac047a4fb8a8ce948bf3c3ad00000000"/>
 		<Metadata name="CommonForm.ВходПоПаролю" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620" configVersion="c0e3230bd62fcc4387dc08de0be3c10d00000000"/>
 		<Metadata name="CommonForm.ВходПоПаролю.Form" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620.0" configVersion="c804171d7a5a764c8e7cd4f4e3dfc02100000000"/>

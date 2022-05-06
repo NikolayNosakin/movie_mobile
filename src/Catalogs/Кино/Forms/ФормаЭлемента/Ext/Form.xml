@@ -66,24 +66,35 @@
 							<v8:content>Название</v8:content>
 						</v8:item>
 					</Title>
+					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Название</v8:content>
+						</v8:item>
+					</InputHint>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 				</InputField>
 				<InputField name="ОригинальноеНазвание" id="13">
 					<DataPath>Объект.ОригинальноеНазвание</DataPath>
+					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оригинальное название</v8:content>
+						</v8:item>
+					</InputHint>
 					<ContextMenu name="ОригинальноеНазваниеКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="ОригинальноеНазваниеРасширеннаяПодсказка" id="15"/>
 				</InputField>
 				<CheckBoxField name="Просмотрен" id="47">
 					<DataPath>Объект.Просмотрен</DataPath>
-					<CheckBoxType>Tumbler</CheckBoxType>
+					<CheckBoxType>Switcher</CheckBoxType>
 					<ContextMenu name="ПросмотренКонтекстноеМеню" id="48"/>
 					<ExtendedTooltip name="ПросмотренРасширеннаяПодсказка" id="49"/>
-					<Events>
-						<Event name="OnChange">ПросмотренПриИзменении</Event>
-					</Events>
 				</CheckBoxField>
 				<UsualGroup name="Группа7" id="114">
 					<Group>AlwaysHorizontal</Group>
