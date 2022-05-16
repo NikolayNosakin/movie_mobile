@@ -248,6 +248,7 @@
 			<CommonModule>kinopoisk_unofficial_api</CommonModule>
 			<CommonModule>СохранениеВосстановлениеДанныхСервер</CommonModule>
 			<CommonModule>ЯндексДискОбменДанными</CommonModule>
+			<CommonModule>СлужебноеКлиент</CommonModule>
 			<FunctionalOption>ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</FunctionalOption>
 			<FunctionalOption>СкрыватьПросмотренныеСерии</FunctionalOption>
 			<Constant>СтильОформления</Constant>
