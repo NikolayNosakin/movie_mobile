@@ -261,9 +261,9 @@
 			<Constant>ПарольДляВхода</Constant>
 			<Constant>РезервноеКопированиеНаЯндексДиск</Constant>
 			<Constant>СкрыватьПросмотренныеСерии</Constant>
+			<CommonForm>ВходПоПаролю</CommonForm>
 			<CommonForm>Настройки</CommonForm>
 			<CommonForm>ЯДФормаАвторизации</CommonForm>
-			<CommonForm>ВходПоПаролю</CommonForm>
 			<Catalog>Жанры</Catalog>
 			<Catalog>Кино</Catalog>
 			<Catalog>Страны</Catalog>
