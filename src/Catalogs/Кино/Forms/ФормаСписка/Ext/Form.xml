@@ -81,7 +81,6 @@
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
-			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<Font ref="style:NormalTextFont" height="7" kind="StyleItem"/>
 			<CommandSet>
 				<ExcludedCommand>CancelSearch</ExcludedCommand>
@@ -112,7 +111,7 @@
 			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 			<RestoreCurrentRow>false</RestoreCurrentRow>
 			<TopLevelParent xsi:nil="true"/>
-			<ShowRoot>true</ShowRoot>
+			<ShowRoot>false</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
@@ -186,11 +185,23 @@
 					<ChildItems>
 						<LabelField name="ГодВыпуска" id="19">
 							<DataPath>Список.ГодВыпуска</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>год Н</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ГодВыпускаКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="ГодВыпускаРасширеннаяПодсказка" id="21"/>
 						</LabelField>
 						<LabelField name="ГодОкончания" id="34">
 							<DataPath>Список.ГодОкончания</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Год К</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ГодОкончанияКонтекстноеМеню" id="35"/>
 							<ExtendedTooltip name="ГодОкончанияРасширеннаяПодсказка" id="36"/>
 						</LabelField>
@@ -198,6 +209,7 @@
 				</ColumnGroup>
 				<LabelField name="Тип" id="31">
 					<DataPath>Список.Тип</DataPath>
+					<Font ref="style:NormalTextFont" height="7" kind="StyleItem"/>
 					<ContextMenu name="ТипКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="33"/>
 				</LabelField>
@@ -304,7 +316,7 @@
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	СправочникКино.Ссылка КАК Ссылка,
-	СправочникКино.ПометкаУдаления КАК ПометкаУдаления,
+	//СправочникКино.ПометкаУдаления КАК ПометкаУдаления,
 	СправочникКино.Код КАК Код,
 	СправочникКино.Наименование КАК Наименование,
 	СправочникКино.ГодВыпуска КАК ГодВыпуска,
@@ -326,6 +338,92 @@
 				ТОГДА СправочникКино.Просмотрен = ЛОЖЬ
 			ИНАЧЕ ИСТИНА
 		КОНЕЦ</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Жанры</dcssch:dataPath>
+					<dcssch:field>Жанры</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии</dcssch:dataPath>
+					<dcssch:field>Серии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ГодОкончания</dcssch:dataPath>
+					<dcssch:field>ГодОкончания</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ГодВыпуска</dcssch:dataPath>
+					<dcssch:field>ГодВыпуска</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Страны</dcssch:dataPath>
+					<dcssch:field>Страны</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Просмотрен</dcssch:dataPath>
+					<dcssch:field>Просмотрен</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Код</dcssch:dataPath>
+					<dcssch:field>Код</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодIMDB</dcssch:dataPath>
+					<dcssch:field>КодIMDB</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодКинопоиск</dcssch:dataPath>
+					<dcssch:field>КодКинопоиск</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоличествоСезонов</dcssch:dataPath>
+					<dcssch:field>КоличествоСезонов</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Описание</dcssch:dataPath>
+					<dcssch:field>Описание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОригинальноеНазвание</dcssch:dataPath>
+					<dcssch:field>ОригинальноеНазвание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Тип</dcssch:dataPath>
+					<dcssch:field>Тип</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>СкрытьПросмотренные</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Скрыть просмотренные</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:boolean</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:boolean">false</dcssch:value>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
 				<MainTable>Catalog.Кино</MainTable>
 				<ListSettings>
 					<dcsset:filter>

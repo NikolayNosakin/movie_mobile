@@ -191,7 +191,7 @@
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>AllFilesAccess</app:functionality>
-					<app:use>false</app:use>
+					<app:use>true</app:use>
 				</app:functionality>
 			</UsedMobileApplicationFunctionalities>
 			<StandaloneConfigurationRestrictionRoles/>
@@ -230,7 +230,7 @@
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_21</CompatibilityMode>
+			<CompatibilityMode>Version8_3_20</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
