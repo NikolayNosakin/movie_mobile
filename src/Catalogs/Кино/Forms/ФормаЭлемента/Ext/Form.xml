@@ -183,6 +183,7 @@
 					<ExtendedTooltip name="ЖанрыРасширеннаяПодсказка" id="54"/>
 					<Events>
 						<Event name="OnChange">ЖанрыПриИзменении</Event>
+						<Event name="StartChoice">ЖанрыНачалоВыбора</Event>
 					</Events>
 				</InputField>
 				<InputField name="Страны" id="105">
@@ -191,6 +192,7 @@
 					<ExtendedTooltip name="СтраныРасширеннаяПодсказка" id="107"/>
 					<Events>
 						<Event name="OnChange">СтраныПриИзменении</Event>
+						<Event name="StartChoice">СтраныНачалоВыбора</Event>
 					</Events>
 				</InputField>
 				<Pages name="Группа4" id="58">

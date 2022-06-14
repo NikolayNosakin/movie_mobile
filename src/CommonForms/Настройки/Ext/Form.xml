@@ -9,314 +9,334 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="Группа1" id="67">
-			<Height>1</Height>
-			<Group>AlwaysHorizontal</Group>
-			<HorizontalAlign>Left</HorizontalAlign>
-			<VerticalAlign>Center</VerticalAlign>
+		<UsualGroup name="Группа2" id="82">
+			<VerticalStretch>true</VerticalStretch>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="68"/>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="83"/>
 			<ChildItems>
-				<InputField name="kinopoisk_unofficial_api_token" id="69">
-					<DataPath>kinopoisk_unofficial_api_token</DataPath>
-					<TitleLocation>Top</TitleLocation>
+				<UsualGroup name="Группа1" id="67">
 					<Height>1</Height>
-					<AutoMaxHeight>false</AutoMaxHeight>
-					<MaxHeight>2</MaxHeight>
-					<MultiLine>true</MultiLine>
-					<HeightControlVariant>UseContentHeight</HeightControlVariant>
-					<ContextMenu name="kinopoisk_unofficial_api_tokenКонтекстноеМеню" id="70"/>
-					<ExtendedTooltip name="kinopoisk_unofficial_api_tokenРасширеннаяПодсказка" id="71"/>
+					<Group>AlwaysHorizontal</Group>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="68"/>
+					<ChildItems>
+						<InputField name="kinopoisk_unofficial_api_token" id="69">
+							<DataPath>kinopoisk_unofficial_api_token</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<Height>1</Height>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<MaxHeight>2</MaxHeight>
+							<MultiLine>true</MultiLine>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<ContextMenu name="kinopoisk_unofficial_api_tokenКонтекстноеМеню" id="70"/>
+							<ExtendedTooltip name="kinopoisk_unofficial_api_tokenРасширеннаяПодсказка" id="71"/>
+							<Events>
+								<Event name="OnChange">kinopoisk_unofficial_api_tokenПриИзменении</Event>
+							</Events>
+						</InputField>
+						<Button name="СправкаАПИ" id="72">
+							<Type>UsualButton</Type>
+							<DefaultButton>true</DefaultButton>
+							<Height>2</Height>
+							<CommandName>Form.Command.СправкаАПИ</CommandName>
+							<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<ExtendedTooltip name="СправкаАПИРасширеннаяПодсказка" id="73"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<CheckBoxField name="СкрыватьПросмотренныеСерии" id="76">
+					<DataPath>СкрыватьПросмотренныеСерии</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СкрыватьПросмотренныеСерииКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="СкрыватьПросмотренныеСерииРасширеннаяПодсказка" id="78"/>
 					<Events>
-						<Event name="OnChange">kinopoisk_unofficial_api_tokenПриИзменении</Event>
+						<Event name="OnChange">КонстантыПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<InputField name="Стиль" id="4">
+					<DataPath>Стиль</DataPath>
+					<SkipOnInput>true</SkipOnInput>
+					<DropListButton>false</DropListButton>
+					<ChoiceButton>true</ChoiceButton>
+					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+					<ClearButton>false</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>false</OpenButton>
+					<CreateButton>false</CreateButton>
+					<ContextMenu name="СтильКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="СтильРасширеннаяПодсказка" id="6"/>
+					<Events>
+						<Event name="OnChange">СтильПриИзменении</Event>
 					</Events>
 				</InputField>
-				<Button name="СправкаАПИ" id="72">
-					<Type>UsualButton</Type>
-					<DefaultButton>true</DefaultButton>
-					<Height>2</Height>
-					<CommandName>Form.Command.СправкаАПИ</CommandName>
-					<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-					<ExtendedTooltip name="СправкаАПИРасширеннаяПодсказка" id="73"/>
+				<InputField name="ПарольДляВхода" id="64">
+					<DataPath>ПарольДляВхода</DataPath>
+					<SkipOnInput>true</SkipOnInput>
+					<TitleLocation>Top</TitleLocation>
+					<PasswordMode>true</PasswordMode>
+					<ChooseType>false</ChooseType>
+					<ContextMenu name="ПарольДляВходаКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="ПарольДляВходаРасширеннаяПодсказка" id="66"/>
+					<Events>
+						<Event name="OnChange">КонстантыПриИзменении</Event>
+					</Events>
+				</InputField>
+				<Button name="СохранитьДанные" id="7">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.СохранитьДанные</CommandName>
+					<ExtendedTooltip name="СохранитьДанныеРасширеннаяПодсказка" id="8"/>
 				</Button>
+				<Button name="ВосстановитьДанные" id="9">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.ВосстановитьДанные</CommandName>
+					<ExtendedTooltip name="ВосстановитьДанныеРасширеннаяПодсказка" id="10"/>
+				</Button>
+				<PictureDecoration name="ДлительнаяОперация" id="11">
+					<Visible>false</Visible>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>true</VerticalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Длительная операция</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Picture>
+						<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДлительнаяОперацияКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="ДлительнаяОперацияРасширеннаяПодсказка" id="13"/>
+				</PictureDecoration>
+				<CheckBoxField name="РезервноеКопированиеНаЯндексДиск" id="14">
+					<DataPath>РезервноеКопированиеНаЯндексДиск</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РезервноеКопированиеНаЯндексДискКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="РезервноеКопированиеНаЯндексДискРасширеннаяПодсказка" id="16"/>
+					<Events>
+						<Event name="OnChange">КонстантыПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<UsualGroup name="НастройкиРезервногоКопированияЯД" id="17">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки яндекс диска</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки резервного копирования ЯД</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Collapsible</Behavior>
+					<Collapsed>true</Collapsed>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="НастройкиРезервногоКопированияЯДРасширеннаяПодсказка" id="18"/>
+					<ChildItems>
+						<InputField name="ЯД_ID_Приложения" id="19">
+							<DataPath>ЯД_ID_Приложения</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<ContextMenu name="ЯД_ID_ПриложенияКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ЯД_ID_ПриложенияРасширеннаяПодсказка" id="21"/>
+							<Events>
+								<Event name="OnChange">КонстантыПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="ЯД_ПарольПриложения" id="22">
+							<DataPath>ЯД_ПарольПриложения</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<ContextMenu name="ЯД_ПарольПриложенияКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ЯД_ПарольПриложенияРасширеннаяПодсказка" id="24"/>
+							<Events>
+								<Event name="OnChange">КонстантыПриИзменении</Event>
+							</Events>
+						</InputField>
+						<UsualGroup name="ГруппаЯД1" id="34">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа я д1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<VerticalAlign>Center</VerticalAlign>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЯД1РасширеннаяПодсказка" id="35"/>
+							<ChildItems>
+								<InputField name="ЯД_КодАвторизации" id="28">
+									<DataPath>ЯД_КодАвторизации</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<HeightControlVariant>UseContentHeight</HeightControlVariant>
+									<ContextMenu name="ЯД_КодАвторизацииКонтекстноеМеню" id="29"/>
+									<ExtendedTooltip name="ЯД_КодАвторизацииРасширеннаяПодсказка" id="30"/>
+									<Events>
+										<Event name="OnChange">КонстантыПриИзменении</Event>
+									</Events>
+								</InputField>
+								<Button name="ЗаполнитьКодАвторизации" id="36">
+									<Type>UsualButton</Type>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<CommandName>Form.Command.ЗаполнитьКодАвторизации</CommandName>
+									<ExtendedTooltip name="ЗаполнитьКодАвторизацииРасширеннаяПодсказка" id="37"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаЯД2" id="38">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа я д2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<VerticalAlign>Center</VerticalAlign>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЯД2РасширеннаяПодсказка" id="39"/>
+							<ChildItems>
+								<InputField name="ЯД_Токен" id="31">
+									<DataPath>ЯД_Токен</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<MultiLine>true</MultiLine>
+									<HeightControlVariant>UseContentHeight</HeightControlVariant>
+									<ContextMenu name="ЯД_ТокенКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="ЯД_ТокенРасширеннаяПодсказка" id="33"/>
+									<Events>
+										<Event name="OnChange">КонстантыПриИзменении</Event>
+									</Events>
+								</InputField>
+								<Button name="ЗаполнитьТокен" id="40">
+									<Type>UsualButton</Type>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<CommandName>Form.Command.ЗаполнитьТокен</CommandName>
+									<ExtendedTooltip name="ЗаполнитьТокенРасширеннаяПодсказка" id="41"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="ЯД_СрокДействияТокена" id="25">
+							<DataPath>ЯД_СрокДействияТокена</DataPath>
+							<ContextMenu name="ЯД_СрокДействияТокенаКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ЯД_СрокДействияТокенаРасширеннаяПодсказка" id="27"/>
+							<Events>
+								<Event name="OnChange">КонстантыПриИзменении</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<Table name="СписокФайлов" id="42">
+					<Representation>List</Representation>
+					<Visible>false</Visible>
+					<CommandBarLocation>None</CommandBarLocation>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<ChoiceMode>true</ChoiceMode>
+					<SelectionMode>SingleRow</SelectionMode>
+					<Header>false</Header>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<InitialListView>Beginning</InitialListView>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>СписокФайлов</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+						<ExcludedCommand>SearchHistory</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
+					</CommandSet>
+					<SearchStringLocation>None</SearchStringLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="СписокФайловКонтекстноеМеню" id="43"/>
+					<AutoCommandBar name="СписокФайловКоманднаяПанель" id="44">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СписокФайловРасширеннаяПодсказка" id="45"/>
+					<SearchStringAddition name="СписокФайловСтрокаПоиска" id="46">
+						<AdditionSource>
+							<Item>СписокФайлов</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокФайловСтрокаПоискаКонтекстноеМеню" id="47"/>
+						<ExtendedTooltip name="СписокФайловСтрокаПоискаРасширеннаяПодсказка" id="48"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокФайловСостояниеПросмотра" id="49">
+						<AdditionSource>
+							<Item>СписокФайлов</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокФайловСостояниеПросмотраКонтекстноеМеню" id="50"/>
+						<ExtendedTooltip name="СписокФайловСостояниеПросмотраРасширеннаяПодсказка" id="51"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокФайловУправлениеПоиском" id="52">
+						<AdditionSource>
+							<Item>СписокФайлов</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокФайловУправлениеПоискомКонтекстноеМеню" id="53"/>
+						<ExtendedTooltip name="СписокФайловУправлениеПоискомРасширеннаяПодсказка" id="54"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="ValueChoice">СписокФайловВыборЗначения</Event>
+						<Event name="Selection">СписокФайловВыбор</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="СписокФайловИмя" id="55">
+							<DataPath>СписокФайлов.Имя</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокФайловИмяКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="СписокФайловИмяРасширеннаяПодсказка" id="57"/>
+						</LabelField>
+						<InputField name="СписокФайловТип" id="58">
+							<DataPath>СписокФайлов.Тип</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокФайловТипКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="СписокФайловТипРасширеннаяПодсказка" id="60"/>
+						</InputField>
+						<InputField name="СписокФайловПуть" id="61">
+							<DataPath>СписокФайлов.Путь</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокФайловПутьКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="СписокФайловПутьРасширеннаяПодсказка" id="63"/>
+						</InputField>
+					</ChildItems>
+				</Table>
 			</ChildItems>
 		</UsualGroup>
-		<CheckBoxField name="СкрыватьПросмотренныеСерии" id="76">
-			<DataPath>СкрыватьПросмотренныеСерии</DataPath>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="СкрыватьПросмотренныеСерииКонтекстноеМеню" id="77"/>
-			<ExtendedTooltip name="СкрыватьПросмотренныеСерииРасширеннаяПодсказка" id="78"/>
-			<Events>
-				<Event name="OnChange">КонстантыПриИзменении</Event>
-			</Events>
-		</CheckBoxField>
-		<InputField name="Стиль" id="4">
-			<DataPath>Стиль</DataPath>
-			<SkipOnInput>true</SkipOnInput>
-			<DropListButton>false</DropListButton>
-			<ChoiceButton>true</ChoiceButton>
-			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
-			<ClearButton>false</ClearButton>
-			<SpinButton>false</SpinButton>
-			<OpenButton>false</OpenButton>
-			<CreateButton>false</CreateButton>
-			<ContextMenu name="СтильКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="СтильРасширеннаяПодсказка" id="6"/>
-			<Events>
-				<Event name="OnChange">СтильПриИзменении</Event>
-			</Events>
-		</InputField>
-		<InputField name="ПарольДляВхода" id="64">
-			<DataPath>ПарольДляВхода</DataPath>
-			<SkipOnInput>true</SkipOnInput>
-			<TitleLocation>Top</TitleLocation>
-			<PasswordMode>true</PasswordMode>
-			<ChooseType>false</ChooseType>
-			<ContextMenu name="ПарольДляВходаКонтекстноеМеню" id="65"/>
-			<ExtendedTooltip name="ПарольДляВходаРасширеннаяПодсказка" id="66"/>
-			<Events>
-				<Event name="OnChange">КонстантыПриИзменении</Event>
-			</Events>
-		</InputField>
-		<Button name="СохранитьДанные" id="7">
-			<Type>Hyperlink</Type>
-			<CommandName>Form.Command.СохранитьДанные</CommandName>
-			<ExtendedTooltip name="СохранитьДанныеРасширеннаяПодсказка" id="8"/>
-		</Button>
-		<Button name="ВосстановитьДанные" id="9">
-			<Type>Hyperlink</Type>
-			<CommandName>Form.Command.ВосстановитьДанные</CommandName>
-			<ExtendedTooltip name="ВосстановитьДанныеРасширеннаяПодсказка" id="10"/>
-		</Button>
-		<PictureDecoration name="ДлительнаяОперация" id="11">
-			<Visible>false</Visible>
-			<HorizontalStretch>true</HorizontalStretch>
-			<VerticalStretch>true</VerticalStretch>
+		<LabelDecoration name="ВерсияПриложения" id="84">
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Длительная операция</v8:content>
+					<v8:content>Версия приложения</v8:content>
 				</v8:item>
 			</Title>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<Picture>
-				<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<ContextMenu name="ДлительнаяОперацияКонтекстноеМеню" id="12"/>
-			<ExtendedTooltip name="ДлительнаяОперацияРасширеннаяПодсказка" id="13"/>
-		</PictureDecoration>
-		<CheckBoxField name="РезервноеКопированиеНаЯндексДиск" id="14">
-			<DataPath>РезервноеКопированиеНаЯндексДиск</DataPath>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="РезервноеКопированиеНаЯндексДискКонтекстноеМеню" id="15"/>
-			<ExtendedTooltip name="РезервноеКопированиеНаЯндексДискРасширеннаяПодсказка" id="16"/>
-			<Events>
-				<Event name="OnChange">КонстантыПриИзменении</Event>
-			</Events>
-		</CheckBoxField>
-		<UsualGroup name="НастройкиРезервногоКопированияЯД" id="17">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки яндекс диска</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки резервного копирования ЯД</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Behavior>Collapsible</Behavior>
-			<Collapsed>true</Collapsed>
-			<Representation>None</Representation>
-			<ExtendedTooltip name="НастройкиРезервногоКопированияЯДРасширеннаяПодсказка" id="18"/>
-			<ChildItems>
-				<InputField name="ЯД_ID_Приложения" id="19">
-					<DataPath>ЯД_ID_Приложения</DataPath>
-					<TitleLocation>Top</TitleLocation>
-					<HeightControlVariant>UseContentHeight</HeightControlVariant>
-					<ContextMenu name="ЯД_ID_ПриложенияКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="ЯД_ID_ПриложенияРасширеннаяПодсказка" id="21"/>
-					<Events>
-						<Event name="OnChange">КонстантыПриИзменении</Event>
-					</Events>
-				</InputField>
-				<InputField name="ЯД_ПарольПриложения" id="22">
-					<DataPath>ЯД_ПарольПриложения</DataPath>
-					<TitleLocation>Top</TitleLocation>
-					<HeightControlVariant>UseContentHeight</HeightControlVariant>
-					<ContextMenu name="ЯД_ПарольПриложенияКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ЯД_ПарольПриложенияРасширеннаяПодсказка" id="24"/>
-					<Events>
-						<Event name="OnChange">КонстантыПриИзменении</Event>
-					</Events>
-				</InputField>
-				<UsualGroup name="ГруппаЯД1" id="34">
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа я д1</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>AlwaysHorizontal</Group>
-					<VerticalAlign>Center</VerticalAlign>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаЯД1РасширеннаяПодсказка" id="35"/>
-					<ChildItems>
-						<InputField name="ЯД_КодАвторизации" id="28">
-							<DataPath>ЯД_КодАвторизации</DataPath>
-							<TitleLocation>Top</TitleLocation>
-							<HeightControlVariant>UseContentHeight</HeightControlVariant>
-							<ContextMenu name="ЯД_КодАвторизацииКонтекстноеМеню" id="29"/>
-							<ExtendedTooltip name="ЯД_КодАвторизацииРасширеннаяПодсказка" id="30"/>
-							<Events>
-								<Event name="OnChange">КонстантыПриИзменении</Event>
-							</Events>
-						</InputField>
-						<Button name="ЗаполнитьКодАвторизации" id="36">
-							<Type>UsualButton</Type>
-							<GroupVerticalAlign>Center</GroupVerticalAlign>
-							<CommandName>Form.Command.ЗаполнитьКодАвторизации</CommandName>
-							<ExtendedTooltip name="ЗаполнитьКодАвторизацииРасширеннаяПодсказка" id="37"/>
-						</Button>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаЯД2" id="38">
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа я д2</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>AlwaysHorizontal</Group>
-					<VerticalAlign>Center</VerticalAlign>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаЯД2РасширеннаяПодсказка" id="39"/>
-					<ChildItems>
-						<InputField name="ЯД_Токен" id="31">
-							<DataPath>ЯД_Токен</DataPath>
-							<TitleLocation>Top</TitleLocation>
-							<MultiLine>true</MultiLine>
-							<HeightControlVariant>UseContentHeight</HeightControlVariant>
-							<ContextMenu name="ЯД_ТокенКонтекстноеМеню" id="32"/>
-							<ExtendedTooltip name="ЯД_ТокенРасширеннаяПодсказка" id="33"/>
-							<Events>
-								<Event name="OnChange">КонстантыПриИзменении</Event>
-							</Events>
-						</InputField>
-						<Button name="ЗаполнитьТокен" id="40">
-							<Type>UsualButton</Type>
-							<GroupVerticalAlign>Center</GroupVerticalAlign>
-							<CommandName>Form.Command.ЗаполнитьТокен</CommandName>
-							<ExtendedTooltip name="ЗаполнитьТокенРасширеннаяПодсказка" id="41"/>
-						</Button>
-					</ChildItems>
-				</UsualGroup>
-				<InputField name="ЯД_СрокДействияТокена" id="25">
-					<DataPath>ЯД_СрокДействияТокена</DataPath>
-					<ContextMenu name="ЯД_СрокДействияТокенаКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="ЯД_СрокДействияТокенаРасширеннаяПодсказка" id="27"/>
-					<Events>
-						<Event name="OnChange">КонстантыПриИзменении</Event>
-					</Events>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
-		<Table name="СписокФайлов" id="42">
-			<Representation>List</Representation>
-			<Visible>false</Visible>
-			<CommandBarLocation>None</CommandBarLocation>
-			<ChangeRowSet>false</ChangeRowSet>
-			<ChangeRowOrder>false</ChangeRowOrder>
-			<ChoiceMode>true</ChoiceMode>
-			<SelectionMode>SingleRow</SelectionMode>
-			<Header>false</Header>
-			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<InitialListView>Beginning</InitialListView>
-			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
-			<DataPath>СписокФайлов</DataPath>
-			<CommandSet>
-				<ExcludedCommand>Add</ExcludedCommand>
-				<ExcludedCommand>CancelSearch</ExcludedCommand>
-				<ExcludedCommand>Change</ExcludedCommand>
-				<ExcludedCommand>Copy</ExcludedCommand>
-				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-				<ExcludedCommand>Delete</ExcludedCommand>
-				<ExcludedCommand>EndEdit</ExcludedCommand>
-				<ExcludedCommand>Find</ExcludedCommand>
-				<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
-				<ExcludedCommand>MoveDown</ExcludedCommand>
-				<ExcludedCommand>MoveUp</ExcludedCommand>
-				<ExcludedCommand>OutputList</ExcludedCommand>
-				<ExcludedCommand>SearchEverywhere</ExcludedCommand>
-				<ExcludedCommand>SearchHistory</ExcludedCommand>
-				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
-				<ExcludedCommand>SortListAsc</ExcludedCommand>
-				<ExcludedCommand>SortListDesc</ExcludedCommand>
-			</CommandSet>
-			<SearchStringLocation>None</SearchStringLocation>
-			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="СписокФайловКонтекстноеМеню" id="43"/>
-			<AutoCommandBar name="СписокФайловКоманднаяПанель" id="44">
-				<Autofill>false</Autofill>
-			</AutoCommandBar>
-			<ExtendedTooltip name="СписокФайловРасширеннаяПодсказка" id="45"/>
-			<SearchStringAddition name="СписокФайловСтрокаПоиска" id="46">
-				<AdditionSource>
-					<Item>СписокФайлов</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокФайловСтрокаПоискаКонтекстноеМеню" id="47"/>
-				<ExtendedTooltip name="СписокФайловСтрокаПоискаРасширеннаяПодсказка" id="48"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="СписокФайловСостояниеПросмотра" id="49">
-				<AdditionSource>
-					<Item>СписокФайлов</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокФайловСостояниеПросмотраКонтекстноеМеню" id="50"/>
-				<ExtendedTooltip name="СписокФайловСостояниеПросмотраРасширеннаяПодсказка" id="51"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="СписокФайловУправлениеПоиском" id="52">
-				<AdditionSource>
-					<Item>СписокФайлов</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокФайловУправлениеПоискомКонтекстноеМеню" id="53"/>
-				<ExtendedTooltip name="СписокФайловУправлениеПоискомРасширеннаяПодсказка" id="54"/>
-			</SearchControlAddition>
-			<Events>
-				<Event name="ValueChoice">СписокФайловВыборЗначения</Event>
-				<Event name="Selection">СписокФайловВыбор</Event>
-			</Events>
-			<ChildItems>
-				<LabelField name="СписокФайловИмя" id="55">
-					<DataPath>СписокФайлов.Имя</DataPath>
-					<TitleLocation>None</TitleLocation>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокФайловИмяКонтекстноеМеню" id="56"/>
-					<ExtendedTooltip name="СписокФайловИмяРасширеннаяПодсказка" id="57"/>
-				</LabelField>
-				<InputField name="СписокФайловТип" id="58">
-					<DataPath>СписокФайлов.Тип</DataPath>
-					<Visible>false</Visible>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокФайловТипКонтекстноеМеню" id="59"/>
-					<ExtendedTooltip name="СписокФайловТипРасширеннаяПодсказка" id="60"/>
-				</InputField>
-				<InputField name="СписокФайловПуть" id="61">
-					<DataPath>СписокФайлов.Путь</DataPath>
-					<Visible>false</Visible>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокФайловПутьКонтекстноеМеню" id="62"/>
-					<ExtendedTooltip name="СписокФайловПутьРасширеннаяПодсказка" id="63"/>
-				</InputField>
-			</ChildItems>
-		</Table>
+			<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+			<VerticalAlign>Bottom</VerticalAlign>
+			<ContextMenu name="ВерсияПриложенияКонтекстноеМеню" id="85"/>
+			<ExtendedTooltip name="ВерсияПриложенияРасширеннаяПодсказка" id="86"/>
+		</LabelDecoration>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Стиль" id="2">

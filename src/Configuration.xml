@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.0.11.1</Version>
+			<Version>1.0.12.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_movie_simple_v1</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -249,22 +249,26 @@
 			<CommonModule>СохранениеВосстановлениеДанныхСервер</CommonModule>
 			<CommonModule>ЯндексДискОбменДанными</CommonModule>
 			<CommonModule>СлужебноеКлиент</CommonModule>
+			<CommonModule>СлужебноеСервер</CommonModule>
+			<CommonModule>СлужебноеВызовСервера</CommonModule>
 			<FunctionalOption>ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</FunctionalOption>
 			<FunctionalOption>СкрыватьПросмотренныеСерии</FunctionalOption>
-			<Constant>СтильОформления</Constant>
 			<Constant>kinopoisk_unofficial_api_token</Constant>
+			<Constant>ВерсияПриложения</Constant>
 			<Constant>ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</Constant>
+			<Constant>ПарольДляВхода</Constant>
+			<Constant>РезервноеКопированиеНаЯндексДиск</Constant>
+			<Constant>СкрыватьПросмотренныеСерии</Constant>
+			<Constant>СтильОформления</Constant>
 			<Constant>ЯД_ID_Приложения</Constant>
 			<Constant>ЯД_КодАвторизации</Constant>
 			<Constant>ЯД_ПарольПриложения</Constant>
 			<Constant>ЯД_СрокДействияТокена</Constant>
 			<Constant>ЯД_Токен</Constant>
-			<Constant>ПарольДляВхода</Constant>
-			<Constant>РезервноеКопированиеНаЯндексДиск</Constant>
-			<Constant>СкрыватьПросмотренныеСерии</Constant>
 			<CommonForm>ВходПоПаролю</CommonForm>
 			<CommonForm>Настройки</CommonForm>
 			<CommonForm>ЯДФормаАвторизации</CommonForm>
+			<CommonForm>ФормаПодбораСпискаЗначений</CommonForm>
 			<Catalog>Жанры</Catalog>
 			<Catalog>Кино</Catalog>
 			<Catalog>Страны</Catalog>
