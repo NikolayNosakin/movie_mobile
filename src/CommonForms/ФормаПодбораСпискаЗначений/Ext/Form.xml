@@ -98,7 +98,7 @@
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
 					<DropListButton>false</DropListButton>
-					<ChoiceButton>true</ChoiceButton>
+					<ChoiceButton>false</ChoiceButton>
 					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 					<ClearButton>false</ClearButton>
 					<SpinButton>false</SpinButton>
