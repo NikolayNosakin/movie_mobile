@@ -33,8 +33,8 @@
 		<Metadata name="Catalog.Страны" id="57e9b420-61a6-4167-b153-06002ee6775f" configVersion="5b51ca1a9ea49b42bbbb0a2bd870093900000000"/>
 		<Metadata name="CommonForm.ВходПоПаролю" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620" configVersion="6aadab1219b057489124dff727edc2d600000000"/>
 		<Metadata name="CommonForm.ВходПоПаролю.Form" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620.0" configVersion="b784f9bd5923384e98b10802f8557b3300000000"/>
-		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="37fa9e8ea4179245be342f70342791d200000000"/>
-		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="4b8570296025a7408295387ca642b83e00000000"/>
+		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="35630ef8d689f04a8f7b5aa0ee2f21c800000000"/>
+		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="4e8d3af0ec363a428aa86d69b61e8d7900000000"/>
 		<Metadata name="CommonForm.ФормаПодбораСпискаЗначений" id="a7a3395c-069e-428b-bc0c-33db5622b497" configVersion="88b380db268dbf43acb3c9764bff5cef00000000"/>
 		<Metadata name="CommonForm.ФормаПодбораСпискаЗначений.Form" id="a7a3395c-069e-428b-bc0c-33db5622b497.0" configVersion="faec7053adbc5841b4e0e906f1347cf200000000"/>
 		<Metadata name="CommonForm.ЯДФормаАвторизации" id="413af10e-3ebf-42db-9927-0c4e1362c3a7" configVersion="9e5b4acdd4f7554aa265b3b011ac037e00000000"/>
