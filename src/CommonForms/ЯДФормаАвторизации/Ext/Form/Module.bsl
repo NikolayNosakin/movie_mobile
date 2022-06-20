@@ -1,7 +1,7 @@
 ﻿
 &НаСервере
 Процедура ПриСозданииНаСервере(Отказ, СтандартнаяОбработка)
-	Адрес = "https://oauth.yandex.ru/authorize?response_type=code&client_id=" + Параметры.IDПриложения;
+	Адрес = "https://oauth.yandex.ru/authorize?response_type=code&client_id=" + ЯндексДискОбменДанными.ПолучитьIDПриложения();
 КонецПроцедуры
 
 &НаКлиенте

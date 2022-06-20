@@ -42,20 +42,86 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа3" id="65">
+			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
+			<ThroughAlign>Use</ThroughAlign>
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="66"/>
 			<ChildItems>
-				<CheckBoxField name="СкрытьПросмотренные" id="58">
-					<DataPath>СкрытьПросмотренные</DataPath>
-					<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+				<CheckBoxField name="Просмотренные" id="58">
+					<DataPath>Просмотренные</DataPath>
 					<CheckBoxType>CheckBox</CheckBoxType>
-					<ContextMenu name="СкрытьПросмотренныеКонтекстноеМеню" id="59"/>
-					<ExtendedTooltip name="СкрытьПросмотренныеРасширеннаяПодсказка" id="60"/>
+					<ContextMenu name="ПросмотренныеКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="ПросмотренныеРасширеннаяПодсказка" id="60"/>
 					<Events>
 						<Event name="OnChange">СкрытьПросмотренныеПриИзменении</Event>
 					</Events>
 				</CheckBoxField>
+				<InputField name="ТипОтбор" id="69">
+					<DataPath>Тип</DataPath>
+					<DropListButton>false</DropListButton>
+					<ChoiceButton>true</ChoiceButton>
+					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+					<ClearButton>true</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>false</OpenButton>
+					<CreateButton>false</CreateButton>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChooseType>false</ChooseType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>  </v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКино.EmptyRef</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКино.EnumValue.Фильм</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКино.EnumValue.Сериал</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКино.EnumValue.Мультфильм</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКино.EnumValue.Мультсериал</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ТипОтборКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="ТипОтборРасширеннаяПодсказка" id="71"/>
+					<Events>
+						<Event name="OnChange">ТипОтборПриИзменении</Event>
+					</Events>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
@@ -313,11 +379,11 @@
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>true</DynamicDataRead>
+				<DynamicDataRead>false</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	СправочникКино.Ссылка КАК Ссылка,
 	//СправочникКино.ПометкаУдаления КАК ПометкаУдаления,
-	СправочникКино.Код КАК Код,
+	//СправочникКино.Код КАК Код,
 	СправочникКино.Наименование КАК Наименование,
 	СправочникКино.ГодВыпуска КАК ГодВыпуска,
 	СправочникКино.ГодОкончания КАК ГодОкончания,
@@ -334,9 +400,15 @@
 	Справочник.Кино КАК СправочникКино
 ГДЕ
 	ВЫБОР
-			КОГДА &amp;СкрытьПросмотренные
-				ТОГДА СправочникКино.Просмотрен = ЛОЖЬ
-			ИНАЧЕ ИСТИНА
+			КОГДА &amp;Просмотренные
+				ТОГДА ИСТИНА
+			ИНАЧЕ СправочникКино.Просмотрен = ЛОЖЬ 
+		КОНЕЦ
+	 И
+	ВЫБОР
+			КОГДА &amp;ТИП = Значение(Перечисление.ТипыКино.ПустаяСсылка)
+				ТОГДА ИСТИНА
+			ИНАЧЕ СправочникКино.Тип = &amp;ТИП		
 		КОНЕЦ</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Жанры</dcssch:dataPath>
@@ -411,11 +483,25 @@
 					<dcssch:field>Предопределенный</dcssch:field>
 				</Field>
 				<Parameter>
-					<dcssch:name>СкрытьПросмотренные</dcssch:name>
+					<dcssch:name>ТИП</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Скрыть просмотренные</v8:content>
+							<v8:content>ТИП</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:EnumRef.ТипыКино</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>Просмотренные</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Просмотренные</v8:content>
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
@@ -459,11 +545,11 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="СкрытьПросмотренные" id="2">
+		<Attribute name="Просмотренные" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Скрыть просмотренные</v8:content>
+					<v8:content>Просмотренные</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -479,6 +565,17 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Тип" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.ТипыКино</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
