@@ -50,7 +50,7 @@
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
 			<Version>1.0.13.2</Version>
-			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_movie_simple_v1</UpdateCatalogAddress>
+			<UpdateCatalogAddress>https://github.com/NikolayNosakin/movie_mobile</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
@@ -227,7 +227,7 @@
 			<ConfigurationInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>https://github.com/NikolayNosakin/1c_movie_simple_v1</v8:content>
+					<v8:content>https://github.com/NikolayNosakin/movie_mobile</v8:content>
 				</v8:item>
 			</ConfigurationInformationAddress>
 			<DataLockControlMode>Managed</DataLockControlMode>

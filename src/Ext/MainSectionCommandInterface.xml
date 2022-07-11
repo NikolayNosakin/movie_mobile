@@ -26,6 +26,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Constant.ВерсияПриложения.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.ИспользуетсяЗаполнениеИзКинопоискаПоАПИ.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -47,6 +52,16 @@
 			</Visibility>
 		</Command>
 		<Command name="Constant.РезервноеКопированиеНаЯндексДиск.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.СериалыПреобразованы.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.СкрыватьПросмотренныеСерии.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
