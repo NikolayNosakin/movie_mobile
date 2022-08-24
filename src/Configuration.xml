@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.0.13.2</Version>
+			<Version>1.0.13.3</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/movie_mobile</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -246,6 +246,7 @@
 			<Style>СтильОформленияСиний</Style>
 			<Style>СтильОформленияТемноСерый</Style>
 			<Style>СтильОформленияЧерный</Style>
+			<Style>СтильОформленияБелый</Style>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>ДлительнаяОперация48</CommonPicture>
 			<CommonPicture>СинхронизацияДанных</CommonPicture>

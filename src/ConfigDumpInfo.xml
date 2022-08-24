@@ -59,11 +59,11 @@
 		<Metadata name="CommonPicture.ЗаполнитьФорму.Picture" id="f0486de7-ea5c-467e-88f2-35ac1cb9d094.0" configVersion="100dd271d8c3f14ea3f8c97231df389700000000"/>
 		<Metadata name="CommonPicture.СинхронизацияДанных" id="e59168d6-698c-46ee-b485-1f1fb5493fe1" configVersion="ffd059fb43c65e42bab3c7793b49fbce00000000"/>
 		<Metadata name="CommonPicture.СинхронизацияДанных.Picture" id="e59168d6-698c-46ee-b485-1f1fb5493fe1.0" configVersion="38f4b0817bc67d428046de2fcd9ec9e600000000"/>
-		<Metadata name="Configuration.КиноМП" id="a057eabd-a60d-4303-97a3-9331473edd76" configVersion="120589599c35f94db41eb9270c3c00d600000000"/>
+		<Metadata name="Configuration.КиноМП" id="a057eabd-a60d-4303-97a3-9331473edd76" configVersion="d538da8620b9f34ea45982bdbac146e600000000"/>
 		<Metadata name="Configuration.КиноМП.HomePageWorkArea" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.8" configVersion="886b1458e6573241bc392000e841e11400000000"/>
 		<Metadata name="Configuration.КиноМП.MainSectionCommandInterface" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.9" configVersion="e0723490a8713649ad14eeb0f66b0ae400000000"/>
 		<Metadata name="Configuration.КиноМП.ManagedApplicationModule" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.6" configVersion="2064622a465f7b4680548d7386fae75000000000"/>
-		<Metadata name="Configuration.КиноМП.SessionModule" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.7" configVersion="34876a079b2caa4dad7a177e9941a6d500000000"/>
+		<Metadata name="Configuration.КиноМП.SessionModule" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.7" configVersion="56d9cee087860549842d58b815aa232100000000"/>
 		<Metadata name="Constant.kinopoisk_unofficial_api_token" id="f621c31c-62b8-4ecf-b0c2-8e0f176b3f02" configVersion="4e6d747f66dea64f940d48798eb9812200000000"/>
 		<Metadata name="Constant.ВерсияПриложения" id="5666bd1a-d48e-4e08-9d59-d01ad6ae7156" configVersion="76c07d7fc24c6f498e6b812413acb26d00000000"/>
 		<Metadata name="Constant.ИспользуетсяЗаполнениеИзКинопоискаПоАПИ" id="97252701-5aca-4d65-bfd3-38bcd8d5d897" configVersion="4c795b637c5cf34a8642fec29cfea50100000000"/>
@@ -77,7 +77,8 @@
 		<Metadata name="Constant.ЯД_ПарольПриложения" id="c22be832-5862-43e0-be73-d242ffe2ec10" configVersion="dcaddc30400add4a91048bd353f65b1100000000"/>
 		<Metadata name="Constant.ЯД_СрокДействияТокена" id="81d5eca2-885f-4617-98a4-6733e36041e5" configVersion="49d8b55f198eb44b90e4f612be39adb600000000"/>
 		<Metadata name="Constant.ЯД_Токен" id="4033e6f9-7f16-4388-98bb-2c0314675521" configVersion="0c0755b2b00ac643834738f4605ecda900000000"/>
-		<Metadata name="Enum.СтилиОформления" id="f4cd719c-2e8c-4cf8-92ab-fb0255311b87" configVersion="5edcde97b6edaf4ea7ff4b346ce7b23a00000000">
+		<Metadata name="Enum.СтилиОформления" id="f4cd719c-2e8c-4cf8-92ab-fb0255311b87" configVersion="0e34a4e16fa2e140887409fe80372e6a00000000">
+			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияБелый" id="1c450e2d-fdb0-4951-b077-f3a78d71dd5c"/>
 			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияСиний" id="7487cb42-beff-49df-9fd8-4f73aefb0801"/>
 			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияТемноСерый" id="9f4aa560-c617-4838-805f-9d2a0b8faee1"/>
 			<Metadata name="Enum.СтилиОформления.EnumValue.СтильОформленияСерый" id="a02f0b18-7f1b-47e7-bb45-2e8b71e3123e"/>
@@ -95,6 +96,8 @@
 		<Metadata name="FunctionalOption.ИспользуетсяЗаполнениеИзКинопоискаПоАПИ" id="ebd9bcb6-e84c-4843-a493-2547904f222f" configVersion="05c33e5a190be74e82398ad2163f8eb900000000"/>
 		<Metadata name="FunctionalOption.СкрыватьПросмотренныеСерии" id="14deec9d-dd34-4856-bbcb-304667bcef9b" configVersion="57ba4a69f8421043bf8706836de6bc6600000000"/>
 		<Metadata name="Language.Русский" id="b13a943a-063d-4354-883d-1cbccc60faa5" configVersion="6cb4ffe475ac534eb7579ca36db00bd600000000"/>
+		<Metadata name="Style.СтильОформленияБелый" id="1de493e2-f11d-4dbf-becc-d2588f17cd3a" configVersion="a514dc4fd6dbdf45a1793fe75b8ffe7f00000000"/>
+		<Metadata name="Style.СтильОформленияБелый.Style" id="1de493e2-f11d-4dbf-becc-d2588f17cd3a.0" configVersion="48e093acc0ef0647b93ff20c8fa419f500000000"/>
 		<Metadata name="Style.СтильОформленияЗеленый" id="cb8c412b-5364-40b3-bf5a-934692d5b5dd" configVersion="d95317fdb6b1f540b43e8af1bf89655a00000000"/>
 		<Metadata name="Style.СтильОформленияЗеленый.Style" id="cb8c412b-5364-40b3-bf5a-934692d5b5dd.0" configVersion="62a6620e9b97a44280f38c612d9500d200000000"/>
 		<Metadata name="Style.СтильОформленияРозовый" id="56446f01-68e2-40e9-8a4f-5751a8460ecf" configVersion="51001139faa66e4d8da11dc0f0a59f0300000000"/>
