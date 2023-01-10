@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<HorizontalSpacing>None</HorizontalSpacing>
 	<VerticalSpacing>None</VerticalSpacing>
+	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -10,18 +12,24 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа2" id="82">
-			<VerticalStretch>true</VerticalStretch>
 			<GroupVerticalAlign>Top</GroupVerticalAlign>
+			<Group>Vertical</Group>
+			<HorizontalSpacing>None</HorizontalSpacing>
 			<VerticalSpacing>None</VerticalSpacing>
+			<HorizontalAlign>Left</HorizontalAlign>
+			<VerticalAlign>Top</VerticalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="83"/>
 			<ChildItems>
 				<UsualGroup name="Группа1" id="67">
-					<Height>1</Height>
 					<Group>AlwaysHorizontal</Group>
+					<HorizontalSpacing>None</HorizontalSpacing>
+					<VerticalSpacing>None</VerticalSpacing>
 					<HorizontalAlign>Left</HorizontalAlign>
 					<VerticalAlign>Center</VerticalAlign>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="68"/>
@@ -97,24 +105,6 @@
 					<CommandName>Form.Command.ВосстановитьДанные</CommandName>
 					<ExtendedTooltip name="ВосстановитьДанныеРасширеннаяПодсказка" id="10"/>
 				</Button>
-				<PictureDecoration name="ДлительнаяОперация" id="11">
-					<Visible>false</Visible>
-					<HorizontalStretch>true</HorizontalStretch>
-					<VerticalStretch>true</VerticalStretch>
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Длительная операция</v8:content>
-						</v8:item>
-					</Title>
-					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-					<Picture>
-						<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ContextMenu name="ДлительнаяОперацияКонтекстноеМеню" id="12"/>
-					<ExtendedTooltip name="ДлительнаяОперацияРасширеннаяПодсказка" id="13"/>
-				</PictureDecoration>
 				<CheckBoxField name="РезервноеКопированиеНаЯндексДиск" id="14">
 					<DataPath>РезервноеКопированиеНаЯндексДиск</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -137,6 +127,8 @@
 							<v8:content>Настройки резервного копирования ЯД</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<HorizontalSpacing>None</HorizontalSpacing>
 					<VerticalSpacing>None</VerticalSpacing>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
@@ -164,46 +156,25 @@
 							</Events>
 						</InputField>
 						<UsualGroup name="ГруппаЯД1" id="34">
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа я д1</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>AlwaysHorizontal</Group>
+							<HorizontalSpacing>None</HorizontalSpacing>
+							<VerticalSpacing>None</VerticalSpacing>
 							<VerticalAlign>Center</VerticalAlign>
 							<Representation>None</Representation>
+							<United>false</United>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЯД1РасширеннаяПодсказка" id="35"/>
 							<ChildItems>
-								<UsualGroup name="Группа3" id="87">
-									<Group>AlwaysHorizontal</Group>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="88"/>
-									<ChildItems>
-										<LabelDecoration name="КодАвторизации" id="89">
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Код авторизации</v8:content>
-												</v8:item>
-											</Title>
-											<ContextMenu name="КодАвторизацииКонтекстноеМеню" id="90"/>
-											<ExtendedTooltip name="КодАвторизацииРасширеннаяПодсказка" id="91"/>
-										</LabelDecoration>
-										<InputField name="ЯД_КодАвторизации" id="28">
-											<DataPath>ЯД_КодАвторизации</DataPath>
-											<TitleLocation>None</TitleLocation>
-											<HeightControlVariant>UseContentHeight</HeightControlVariant>
-											<ContextMenu name="ЯД_КодАвторизацииКонтекстноеМеню" id="29"/>
-											<ExtendedTooltip name="ЯД_КодАвторизацииРасширеннаяПодсказка" id="30"/>
-											<Events>
-												<Event name="OnChange">КонстантыПриИзменении</Event>
-											</Events>
-										</InputField>
-									</ChildItems>
-								</UsualGroup>
+								<InputField name="ЯД_КодАвторизации" id="28">
+									<DataPath>ЯД_КодАвторизации</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<HeightControlVariant>UseContentHeight</HeightControlVariant>
+									<ContextMenu name="ЯД_КодАвторизацииКонтекстноеМеню" id="29"/>
+									<ExtendedTooltip name="ЯД_КодАвторизацииРасширеннаяПодсказка" id="30"/>
+									<Events>
+										<Event name="OnChange">КонстантыПриИзменении</Event>
+									</Events>
+								</InputField>
 								<Button name="ЗаполнитьКодАвторизации" id="36">
 									<Type>UsualButton</Type>
 									<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -213,15 +184,12 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаЯД2" id="38">
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа я д2</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>AlwaysHorizontal</Group>
+							<HorizontalSpacing>None</HorizontalSpacing>
+							<VerticalSpacing>None</VerticalSpacing>
 							<VerticalAlign>Center</VerticalAlign>
 							<Representation>None</Representation>
+							<United>false</United>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЯД2РасширеннаяПодсказка" id="39"/>
 							<ChildItems>
@@ -360,6 +328,24 @@
 			<ContextMenu name="ВерсияПриложенияКонтекстноеМеню" id="85"/>
 			<ExtendedTooltip name="ВерсияПриложенияРасширеннаяПодсказка" id="86"/>
 		</LabelDecoration>
+		<PictureDecoration name="ДлительнаяОперация" id="11">
+			<Visible>false</Visible>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Длительная операция</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<Picture>
+				<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="ДлительнаяОперацияКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ДлительнаяОперацияРасширеннаяПодсказка" id="13"/>
+		</PictureDecoration>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Стиль" id="2">
