@@ -22,6 +22,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Типы кино</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Types of movies</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -100,6 +104,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Фильм</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Film</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
@@ -111,6 +119,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Мультфильм</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cartoon</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -124,6 +136,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сериал</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>TV series</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
@@ -135,6 +151,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Мультсериал</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Animated series</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

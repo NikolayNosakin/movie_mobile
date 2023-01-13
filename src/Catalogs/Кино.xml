@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Кино</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Movie</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>false</Hierarchical>
@@ -331,6 +335,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Год выпуска</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Year of release</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -374,6 +382,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Год окончания</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Final year</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -419,6 +431,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код IMDB</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>IMDB Code</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -463,6 +479,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код кинопоиск</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Kinopoisk code</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -506,6 +526,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество сезонов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of seasons</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -552,6 +576,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -595,6 +623,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Оригинальное название</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Original name</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -640,6 +672,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -679,6 +715,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Просмотрен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Viewed</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -730,6 +770,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Жанры</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Genres</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -772,6 +816,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Жанр</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Genre</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -822,6 +870,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Серии</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Series</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -865,6 +917,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сезон строка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Season</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -906,6 +962,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сезон</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Season</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -922,10 +982,18 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>ЧН=0</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
 							</Format>
 							<EditFormat>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>ЧН=0</v8:content>
 								</v8:item>
 							</EditFormat>
@@ -957,6 +1025,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Серия строка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Series</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -999,6 +1071,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Серия</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Series</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1015,10 +1091,18 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>ЧН=0</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
 							</Format>
 							<EditFormat>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>ЧН=0</v8:content>
 								</v8:item>
 							</EditFormat>
@@ -1050,6 +1134,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Описание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Description</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -1092,6 +1180,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дата выхода</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Release date</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1131,6 +1223,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Название серии</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Series name</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -1172,6 +1268,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Просмотрена</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Viewed</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -1222,6 +1322,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страны</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Countries</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -1264,6 +1368,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страна</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Country</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>

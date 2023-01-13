@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Кино</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Movie</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment>movie mobile</Comment>
 			<NamePrefix/>
@@ -49,7 +53,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.0.1</Version>
+			<Version>2.1.0.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/movie_mobile</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -206,11 +210,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Хранение списка фильмов, сериалов. Отметка просмотренных фильмов.</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Storing a list of movies, TV shows. The mark of the watched movies.</v8:content>
+				</v8:item>
 			</DetailedInformation>
 			<Copyright>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Носакин Николай Сергеевич</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Nosakin Nikolay Sergeevich</v8:content>
 				</v8:item>
 			</Copyright>
 			<VendorInformationAddress>
@@ -218,10 +230,18 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>https://github.com/NikolayNosakin</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>https://github.com/NikolayNosakin</v8:content>
+				</v8:item>
 			</VendorInformationAddress>
 			<ConfigurationInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
+					<v8:content>https://github.com/NikolayNosakin/movie_mobile</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
 					<v8:content>https://github.com/NikolayNosakin/movie_mobile</v8:content>
 				</v8:item>
 			</ConfigurationInformationAddress>
@@ -235,6 +255,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Language>Английский</Language>
 			<Style>СтильОформленияЗеленый</Style>
 			<Style>СтильОформленияРозовый</Style>
 			<Style>СтильОформленияСерый</Style>

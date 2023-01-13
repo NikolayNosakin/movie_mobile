@@ -8,6 +8,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Используется заполнение из кинопоиска по АПИ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filling is used from the API kinopoisk</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Location>Constant.ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</Location>

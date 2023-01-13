@@ -8,6 +8,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скрывать просмотренные серии</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Hide viewed episodes</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Location>Constant.СкрыватьПросмотренныеСерии</Location>

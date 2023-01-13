@@ -3,7 +3,8 @@
 	
 	API_KEY = Константы.kinopoisk_unofficial_api_token.Получить();
 	Если API_KEY = "" Тогда
-		Сообщить("Ошибка. Ключ АПИ для подключения не заполнен.");
+		Сообщить(Нстр("ru = 'Ошибка. Ключ АПИ для подключения не заполнен.';
+						|en = 'Error. The API key for the connection is not filled in.'"));
 		Возврат;
 	КонецЕсли;	
 	АдресСервера = "kinopoiskapiunofficial.tech";
@@ -99,7 +100,8 @@
 	
 	API_KEY = Константы.kinopoisk_unofficial_api_token.Получить();
 	Если API_KEY = "" Тогда
-		Сообщить("Ошибка. Ключ АПИ для подключения не заполнен.");
+		Сообщить(Нстр("ru = 'Ошибка. Ключ АПИ для подключения не заполнен.';
+						|en = 'Error. The API key for the connection is not filled in.'"));
 		Возврат;
 	КонецЕсли;	
 	АдресСервера = "kinopoiskapiunofficial.tech";
