@@ -55,328 +55,369 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="Группа8" id="120">
-			<GroupVerticalAlign>Top</GroupVerticalAlign>
-			<Group>Vertical</Group>
-			<VerticalSpacing>None</VerticalSpacing>
-			<VerticalAlign>Top</VerticalAlign>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="121"/>
+		<Pages name="Группа3" id="139">
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="140"/>
 			<ChildItems>
-				<InputField name="Наименование" id="1">
-					<DataPath>Объект.Description</DataPath>
+				<Page name="Группа9" id="141">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Название</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Name</v8:content>
+							<v8:content>1</v8:content>
 						</v8:item>
 					</Title>
-					<TitleLocation>None</TitleLocation>
-					<EditMode>EnterOnInput</EditMode>
-					<InputHint>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Название</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Name</v8:content>
-						</v8:item>
-					</InputHint>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
-				</InputField>
-				<InputField name="ОригинальноеНазвание" id="13">
-					<DataPath>Объект.ОригинальноеНазвание</DataPath>
-					<TitleLocation>None</TitleLocation>
-					<EditMode>EnterOnInput</EditMode>
-					<InputHint>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Оригинальное название</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Original name</v8:content>
-						</v8:item>
-					</InputHint>
-					<ContextMenu name="ОригинальноеНазваниеКонтекстноеМеню" id="14"/>
-					<ExtendedTooltip name="ОригинальноеНазваниеРасширеннаяПодсказка" id="15"/>
-				</InputField>
-				<CheckBoxField name="Просмотрен" id="47">
-					<DataPath>Объект.Просмотрен</DataPath>
-					<CheckBoxType>Switcher</CheckBoxType>
-					<ContextMenu name="ПросмотренКонтекстноеМеню" id="48"/>
-					<ExtendedTooltip name="ПросмотренРасширеннаяПодсказка" id="49"/>
-				</CheckBoxField>
-				<UsualGroup name="Группа7" id="114">
-					<Group>AlwaysHorizontal</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="115"/>
+					<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="142"/>
 					<ChildItems>
-						<InputField name="КодIMDB" id="96">
-							<DataPath>Объект.КодIMDB</DataPath>
-							<ContextMenu name="КодIMDBКонтекстноеМеню" id="97"/>
-							<ExtendedTooltip name="КодIMDBРасширеннаяПодсказка" id="98"/>
-						</InputField>
-						<Button name="ОткрытьСсылкуIMDB" id="116">
-							<Type>Hyperlink</Type>
-							<Representation>Picture</Representation>
-							<CommandName>Form.Command.ОткрытьСсылкуIMDB</CommandName>
-							<ExtendedTooltip name="ОткрытьСсылкуIMDBРасширеннаяПодсказка" id="117"/>
-						</Button>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="Группа1" id="38">
-					<Group>AlwaysHorizontal</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="39"/>
-					<ChildItems>
-						<InputField name="КодКинопоиск" id="7">
-							<DataPath>Объект.КодКинопоиск</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="КодКинопоискКонтекстноеМеню" id="8"/>
-							<ExtendedTooltip name="КодКинопоискРасширеннаяПодсказка" id="9"/>
-						</InputField>
-						<Button name="ОткрытьСсылкуКинопоиск" id="40">
-							<Type>Hyperlink</Type>
-							<Representation>Picture</Representation>
-							<CommandName>Form.Command.ОткрытьСсылкуКинопоиск</CommandName>
-							<ExtendedTooltip name="ОткрытьСсылкуКинопоискРасширеннаяПодсказка" id="41"/>
-						</Button>
-						<Button name="ФормаЗаполнитьПоКинопоиску" id="118" DisplayImportance="VeryHigh">
-							<Type>Hyperlink</Type>
-							<Representation>Picture</Representation>
-							<CommandName>Form.Command.ЗаполнитьПоКинопоиску</CommandName>
-							<ExtendedTooltip name="ФормаЗаполнитьПоКинопоискуРасширеннаяПодсказка" id="119"/>
-						</Button>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="Группа2" id="42">
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
-					<ChildItems>
-						<InputField name="Год" id="4">
-							<DataPath>Объект.ГодВыпуска</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="ГодКонтекстноеМеню" id="5"/>
-							<ExtendedTooltip name="ГодРасширеннаяПодсказка" id="6"/>
-						</InputField>
-						<InputField name="ГодОкончания" id="44">
-							<DataPath>Объект.ГодОкончания</DataPath>
-							<ContextMenu name="ГодОкончанияКонтекстноеМеню" id="45"/>
-							<ExtendedTooltip name="ГодОкончанияРасширеннаяПодсказка" id="46"/>
-						</InputField>
-					</ChildItems>
-				</UsualGroup>
-				<InputField name="Тип" id="16">
-					<DataPath>Объект.Тип</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТипКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="18"/>
-					<Events>
-						<Event name="OnChange">ТипПриИзменении</Event>
-					</Events>
-				</InputField>
-				<InputField name="КоличествоСезонов" id="55">
-					<DataPath>Объект.КоличествоСезонов</DataPath>
-					<ContextMenu name="КоличествоСезоновКонтекстноеМеню" id="56"/>
-					<ExtendedTooltip name="КоличествоСезоновРасширеннаяПодсказка" id="57"/>
-				</InputField>
-				<InputField name="Жанры" id="52">
-					<DataPath>Жанры</DataPath>
-					<ContextMenu name="ЖанрыКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="ЖанрыРасширеннаяПодсказка" id="54"/>
-					<Events>
-						<Event name="OnChange">ЖанрыПриИзменении</Event>
-						<Event name="StartChoice">ЖанрыНачалоВыбора</Event>
-					</Events>
-				</InputField>
-				<InputField name="Страны" id="105">
-					<DataPath>Страны</DataPath>
-					<ContextMenu name="СтраныКонтекстноеМеню" id="106"/>
-					<ExtendedTooltip name="СтраныРасширеннаяПодсказка" id="107"/>
-					<Events>
-						<Event name="OnChange">СтраныПриИзменении</Event>
-						<Event name="StartChoice">СтраныНачалоВыбора</Event>
-					</Events>
-				</InputField>
-				<Pages name="Группа4" id="58">
-					<PagesRepresentation>TabsOnTop</PagesRepresentation>
-					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="59"/>
-					<ChildItems>
-						<Page name="Группа6" id="62">
+						<InputField name="Наименование" id="1">
+							<DataPath>Объект.Description</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Серии</v8:content>
+									<v8:content>Название</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Series</v8:content>
+									<v8:content>Name</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="63"/>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<InputHint>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Название</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Name</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="ОригинальноеНазвание" id="13">
+							<DataPath>Объект.ОригинальноеНазвание</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<InputHint>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Оригинальное название</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Original name</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="ОригинальноеНазваниеКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ОригинальноеНазваниеРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<CheckBoxField name="Просмотрен" id="47">
+							<DataPath>Объект.Просмотрен</DataPath>
+							<CheckBoxType>Switcher</CheckBoxType>
+							<ContextMenu name="ПросмотренКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ПросмотренРасширеннаяПодсказка" id="49"/>
+						</CheckBoxField>
+						<UsualGroup name="Группа7" id="114">
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="115"/>
 							<ChildItems>
-								<Table name="Серии" id="64">
-									<Representation>List</Representation>
-									<SelectionMode>SingleRow</SelectionMode>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
-									<AutoInsertNewRow>true</AutoInsertNewRow>
-									<EnableStartDrag>true</EnableStartDrag>
-									<EnableDrag>true</EnableDrag>
-									<DataPath>Объект.Серии</DataPath>
-									<BorderColor>#000000</BorderColor>
-									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="СерииКонтекстноеМеню" id="65"/>
-									<AutoCommandBar name="СерииКоманднаяПанель" id="66">
-										<ChildItems>
-											<Button name="ЗаполнитьСерииСезоныПоКинопоиску" id="122">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ЗаполнитьСерииСезоныПоКинопоиску</CommandName>
-												<ExtendedTooltip name="ЗаполнитьСерииСезоныПоКинопоискуРасширеннаяПодсказка" id="123"/>
-											</Button>
-											<Button name="СерииЗаполнитьСерииПоСезону" id="99">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ЗаполнитьСерииПоСезону</CommandName>
-												<ExtendedTooltip name="СерииЗаполнитьСерииПоСезонуРасширеннаяПодсказка" id="100"/>
-											</Button>
-											<Button name="СерииОтметитьПросмотренные" id="101">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ОтметитьПросмотренные</CommandName>
-												<ExtendedTooltip name="СерииОтметитьПросмотренныеРасширеннаяПодсказка" id="102"/>
-											</Button>
-											<Button name="СерииУбратьПросмотренные" id="103">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.УбратьПросмотренные</CommandName>
-												<ExtendedTooltip name="СерииУбратьПросмотренныеРасширеннаяПодсказка" id="104"/>
-											</Button>
-											<Button name="ПоказатьПросмотренныеСерии" id="135">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ПоказатьПросмотренныеСерии</CommandName>
-												<ExtendedTooltip name="ПоказатьПросмотренныеСерииРасширеннаяПодсказка" id="136"/>
-											</Button>
-										</ChildItems>
-									</AutoCommandBar>
-									<ExtendedTooltip name="СерииРасширеннаяПодсказка" id="67"/>
-									<SearchStringAddition name="СерииСтрокаПоиска" id="68">
-										<AdditionSource>
-											<Item>Серии</Item>
-											<Type>SearchStringRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="СерииСтрокаПоискаКонтекстноеМеню" id="69"/>
-										<ExtendedTooltip name="СерииСтрокаПоискаРасширеннаяПодсказка" id="70"/>
-									</SearchStringAddition>
-									<ViewStatusAddition name="СерииСостояниеПросмотра" id="71">
-										<AdditionSource>
-											<Item>Серии</Item>
-											<Type>ViewStatusRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="СерииСостояниеПросмотраКонтекстноеМеню" id="72"/>
-										<ExtendedTooltip name="СерииСостояниеПросмотраРасширеннаяПодсказка" id="73"/>
-									</ViewStatusAddition>
-									<SearchControlAddition name="СерииУправлениеПоиском" id="74">
-										<AdditionSource>
-											<Item>Серии</Item>
-											<Type>SearchControl</Type>
-										</AdditionSource>
-										<ContextMenu name="СерииУправлениеПоискомКонтекстноеМеню" id="75"/>
-										<ExtendedTooltip name="СерииУправлениеПоискомРасширеннаяПодсказка" id="76"/>
-									</SearchControlAddition>
-									<ChildItems>
-										<LabelField name="СерииНомерСтроки" id="77">
-											<DataPath>Объект.Серии.LineNumber</DataPath>
-											<Visible>false</Visible>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="СерииНомерСтрокиКонтекстноеМеню" id="78"/>
-											<ExtendedTooltip name="СерииНомерСтрокиРасширеннаяПодсказка" id="79"/>
-										</LabelField>
-										<CheckBoxField name="СерииПросмотрена" id="89">
-											<DataPath>Объект.Серии.Просмотрена</DataPath>
-											<TitleLocation>None</TitleLocation>
-											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="СерииПросмотренаКонтекстноеМеню" id="90"/>
-											<ExtendedTooltip name="СерииПросмотренаРасширеннаяПодсказка" id="91"/>
-											<Events>
-												<Event name="OnChange">СерииПросмотренПриИзменении</Event>
-											</Events>
-										</CheckBoxField>
-										<InputField name="СерииСезон" id="80">
-											<DataPath>Объект.Серии.Сезон</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="СерииСезонКонтекстноеМеню" id="81"/>
-											<ExtendedTooltip name="СерииСезонРасширеннаяПодсказка" id="82"/>
-										</InputField>
-										<InputField name="СерииСерия" id="83">
-											<DataPath>Объект.Серии.Серия</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="СерииСерияКонтекстноеМеню" id="84"/>
-											<ExtendedTooltip name="СерииСерияРасширеннаяПодсказка" id="85"/>
-										</InputField>
-										<InputField name="СерииНазваниеСерии" id="111">
-											<DataPath>Объект.Серии.НазваниеСерии</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="СерииНазваниеСерииКонтекстноеМеню" id="112"/>
-											<ExtendedTooltip name="СерииНазваниеСерииРасширеннаяПодсказка" id="113"/>
-										</InputField>
-										<InputField name="СерииДатаВыходаСерии" id="108">
-											<DataPath>Объект.Серии.ДатаВыходаСерии</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="СерииДатаВыходаСерииКонтекстноеМеню" id="109"/>
-											<ExtendedTooltip name="СерииДатаВыходаСерииРасширеннаяПодсказка" id="110"/>
-										</InputField>
-										<InputField name="СерииОписание" id="86">
-											<DataPath>Объект.Серии.Описание</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<AutoCellHeight>true</AutoCellHeight>
-											<MultiLine>true</MultiLine>
-											<ContextMenu name="СерииОписаниеКонтекстноеМеню" id="87"/>
-											<ExtendedTooltip name="СерииОписаниеРасширеннаяПодсказка" id="88"/>
-										</InputField>
-									</ChildItems>
-								</Table>
+								<InputField name="КодIMDB" id="96">
+									<DataPath>Объект.КодIMDB</DataPath>
+									<ContextMenu name="КодIMDBКонтекстноеМеню" id="97"/>
+									<ExtendedTooltip name="КодIMDBРасширеннаяПодсказка" id="98"/>
+								</InputField>
+								<Button name="ОткрытьСсылкуIMDB" id="116">
+									<Type>Hyperlink</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.ОткрытьСсылкуIMDB</CommandName>
+									<ExtendedTooltip name="ОткрытьСсылкуIMDBРасширеннаяПодсказка" id="117"/>
+								</Button>
 							</ChildItems>
-						</Page>
-						<Page name="Группа5" id="60">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Описание</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Description</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="61"/>
+						</UsualGroup>
+						<UsualGroup name="Группа1" id="38">
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="39"/>
 							<ChildItems>
-								<InputField name="Описание" id="10">
-									<DataPath>Объект.Описание</DataPath>
-									<TitleLocation>None</TitleLocation>
+								<InputField name="КодКинопоиск" id="7">
+									<DataPath>Объект.КодКинопоиск</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<AutoMaxHeight>false</AutoMaxHeight>
-									<MultiLine>true</MultiLine>
-									<ContextMenu name="ОписаниеКонтекстноеМеню" id="11"/>
-									<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="12"/>
+									<ContextMenu name="КодКинопоискКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="КодКинопоискРасширеннаяПодсказка" id="9"/>
+								</InputField>
+								<Button name="ОткрытьСсылкуКинопоиск" id="40">
+									<Type>Hyperlink</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.ОткрытьСсылкуКинопоиск</CommandName>
+									<ExtendedTooltip name="ОткрытьСсылкуКинопоискРасширеннаяПодсказка" id="41"/>
+								</Button>
+								<Button name="ВставитьИзБуфераОбмена" id="137">
+									<Type>Hyperlink</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.ВставитьИзБуфераОбмена</CommandName>
+									<ExtendedTooltip name="ВставитьИзБуфераОбменаРасширеннаяПодсказка" id="138"/>
+								</Button>
+								<Button name="ФормаЗаполнитьПоКинопоиску" id="118" DisplayImportance="VeryHigh">
+									<Type>Hyperlink</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.ЗаполнитьПоКинопоиску</CommandName>
+									<ExtendedTooltip name="ФормаЗаполнитьПоКинопоискуРасширеннаяПодсказка" id="119"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа2" id="42">
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
+							<ChildItems>
+								<InputField name="Год" id="4">
+									<DataPath>Объект.ГодВыпуска</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ГодКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="ГодРасширеннаяПодсказка" id="6"/>
+								</InputField>
+								<InputField name="ГодОкончания" id="44">
+									<DataPath>Объект.ГодОкончания</DataPath>
+									<ContextMenu name="ГодОкончанияКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ГодОкончанияРасширеннаяПодсказка" id="46"/>
 								</InputField>
 							</ChildItems>
-						</Page>
+						</UsualGroup>
+						<InputField name="Тип" id="16">
+							<DataPath>Объект.Тип</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТипКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="18"/>
+							<Events>
+								<Event name="OnChange">ТипПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="КоличествоСезонов" id="55">
+							<DataPath>Объект.КоличествоСезонов</DataPath>
+							<ContextMenu name="КоличествоСезоновКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="КоличествоСезоновРасширеннаяПодсказка" id="57"/>
+						</InputField>
+						<InputField name="Жанры" id="52">
+							<DataPath>Жанры</DataPath>
+							<ContextMenu name="ЖанрыКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="ЖанрыРасширеннаяПодсказка" id="54"/>
+							<Events>
+								<Event name="OnChange">ЖанрыПриИзменении</Event>
+								<Event name="StartChoice">ЖанрыНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="Страны" id="105">
+							<DataPath>Страны</DataPath>
+							<ContextMenu name="СтраныКонтекстноеМеню" id="106"/>
+							<ExtendedTooltip name="СтраныРасширеннаяПодсказка" id="107"/>
+							<Events>
+								<Event name="OnChange">СтраныПриИзменении</Event>
+								<Event name="StartChoice">СтраныНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<Pages name="Группа4" id="58">
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="59"/>
+							<ChildItems>
+								<Page name="Группа6" id="62">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Серии</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Series</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="63"/>
+									<ChildItems>
+										<Table name="Серии" id="64">
+											<Representation>List</Representation>
+											<SelectionMode>SingleRow</SelectionMode>
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.Серии</DataPath>
+											<BorderColor>#000000</BorderColor>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СерииКонтекстноеМеню" id="65"/>
+											<AutoCommandBar name="СерииКоманднаяПанель" id="66">
+												<ChildItems>
+													<Button name="ЗаполнитьСерииСезоныПоКинопоиску" id="122">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ЗаполнитьСерииСезоныПоКинопоиску</CommandName>
+														<ExtendedTooltip name="ЗаполнитьСерииСезоныПоКинопоискуРасширеннаяПодсказка" id="123"/>
+													</Button>
+													<Button name="СерииЗаполнитьСерииПоСезону" id="99">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ЗаполнитьСерииПоСезону</CommandName>
+														<ExtendedTooltip name="СерииЗаполнитьСерииПоСезонуРасширеннаяПодсказка" id="100"/>
+													</Button>
+													<Button name="СерииОтметитьПросмотренные" id="101">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОтметитьПросмотренные</CommandName>
+														<ExtendedTooltip name="СерииОтметитьПросмотренныеРасширеннаяПодсказка" id="102"/>
+													</Button>
+													<Button name="СерииУбратьПросмотренные" id="103">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.УбратьПросмотренные</CommandName>
+														<ExtendedTooltip name="СерииУбратьПросмотренныеРасширеннаяПодсказка" id="104"/>
+													</Button>
+													<Button name="ПоказатьПросмотренныеСерии" id="135">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ПоказатьПросмотренныеСерии</CommandName>
+														<ExtendedTooltip name="ПоказатьПросмотренныеСерииРасширеннаяПодсказка" id="136"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="СерииРасширеннаяПодсказка" id="67"/>
+											<SearchStringAddition name="СерииСтрокаПоиска" id="68">
+												<AdditionSource>
+													<Item>Серии</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СерииСтрокаПоискаКонтекстноеМеню" id="69"/>
+												<ExtendedTooltip name="СерииСтрокаПоискаРасширеннаяПодсказка" id="70"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СерииСостояниеПросмотра" id="71">
+												<AdditionSource>
+													<Item>Серии</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СерииСостояниеПросмотраКонтекстноеМеню" id="72"/>
+												<ExtendedTooltip name="СерииСостояниеПросмотраРасширеннаяПодсказка" id="73"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СерииУправлениеПоиском" id="74">
+												<AdditionSource>
+													<Item>Серии</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СерииУправлениеПоискомКонтекстноеМеню" id="75"/>
+												<ExtendedTooltip name="СерииУправлениеПоискомРасширеннаяПодсказка" id="76"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="СерииНомерСтроки" id="77">
+													<DataPath>Объект.Серии.LineNumber</DataPath>
+													<Visible>false</Visible>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СерииНомерСтрокиКонтекстноеМеню" id="78"/>
+													<ExtendedTooltip name="СерииНомерСтрокиРасширеннаяПодсказка" id="79"/>
+												</LabelField>
+												<CheckBoxField name="СерииПросмотрена" id="89">
+													<DataPath>Объект.Серии.Просмотрена</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="СерииПросмотренаКонтекстноеМеню" id="90"/>
+													<ExtendedTooltip name="СерииПросмотренаРасширеннаяПодсказка" id="91"/>
+													<Events>
+														<Event name="OnChange">СерииПросмотренПриИзменении</Event>
+													</Events>
+												</CheckBoxField>
+												<InputField name="СерииСезон" id="80">
+													<DataPath>Объект.Серии.Сезон</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СерииСезонКонтекстноеМеню" id="81"/>
+													<ExtendedTooltip name="СерииСезонРасширеннаяПодсказка" id="82"/>
+												</InputField>
+												<InputField name="СерииСерия" id="83">
+													<DataPath>Объект.Серии.Серия</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СерииСерияКонтекстноеМеню" id="84"/>
+													<ExtendedTooltip name="СерииСерияРасширеннаяПодсказка" id="85"/>
+												</InputField>
+												<InputField name="СерииНазваниеСерии" id="111">
+													<DataPath>Объект.Серии.НазваниеСерии</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СерииНазваниеСерииКонтекстноеМеню" id="112"/>
+													<ExtendedTooltip name="СерииНазваниеСерииРасширеннаяПодсказка" id="113"/>
+												</InputField>
+												<InputField name="СерииДатаВыходаСерии" id="108">
+													<DataPath>Объект.Серии.ДатаВыходаСерии</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СерииДатаВыходаСерииКонтекстноеМеню" id="109"/>
+													<ExtendedTooltip name="СерииДатаВыходаСерииРасширеннаяПодсказка" id="110"/>
+												</InputField>
+												<InputField name="СерииОписание" id="86">
+													<DataPath>Объект.Серии.Описание</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoCellHeight>true</AutoCellHeight>
+													<MultiLine>true</MultiLine>
+													<ContextMenu name="СерииОписаниеКонтекстноеМеню" id="87"/>
+													<ExtendedTooltip name="СерииОписаниеРасширеннаяПодсказка" id="88"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="Группа5" id="60">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Описание</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Description</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="61"/>
+									<ChildItems>
+										<InputField name="Описание" id="10">
+											<DataPath>Объект.Описание</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<MultiLine>true</MultiLine>
+											<ContextMenu name="ОписаниеКонтекстноеМеню" id="11"/>
+											<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="12"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
 					</ChildItems>
-				</Pages>
+				</Page>
+				<Page name="Группа8" id="143">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2</v8:content>
+						</v8:item>
+					</Title>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="144"/>
+					<ChildItems>
+						<HTMLDocumentField name="БуферОбмена" id="145">
+							<DataPath>БуферОбмена</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Height>2</Height>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<ContextMenu name="БуферОбменаКонтекстноеМеню" id="146"/>
+							<ExtendedTooltip name="БуферОбменаРасширеннаяПодсказка" id="147"/>
+						</HTMLDocumentField>
+						<Button name="ВставитьИзБуфераОбмена1" id="148">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВставитьИзБуфераОбмена</CommandName>
+							<ExtendedTooltip name="ВставитьИзБуфераОбмена1РасширеннаяПодсказка" id="149"/>
+						</Button>
+					</ChildItems>
+				</Page>
 			</ChildItems>
-		</UsualGroup>
+		</Pages>
 		<PictureDecoration name="ДлительнаяОперация" id="124">
 			<Visible>false</Visible>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -461,6 +502,21 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="БуферОбмена" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Буфер обмена</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -681,6 +737,26 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ПоказатьПросмотренныеСерии</Action>
+		</Command>
+		<Command name="ВставитьИзБуфераОбмена" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вставить из буфера обмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вставить из буфера обмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.БуферОбменаВставить</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВставитьИзБуфераОбмена</Action>
+			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
 </Form>

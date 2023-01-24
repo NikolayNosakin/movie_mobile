@@ -53,7 +53,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>2.1.0.1</Version>
+			<Version>2.1.0.2</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/movie_mobile</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -250,7 +250,7 @@
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_20</CompatibilityMode>
+			<CompatibilityMode>Version8_3_21</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -269,6 +269,7 @@
 			<CommonPicture>ГлазОткрытый</CommonPicture>
 			<CommonPicture>ГлазЗакрытый</CommonPicture>
 			<CommonPicture>ГлазПеречеркнутый</CommonPicture>
+			<CommonPicture>БуферОбменаВставить</CommonPicture>
 			<CommonModule>kinopoisk_unofficial_api</CommonModule>
 			<CommonModule>СохранениеВосстановлениеДанныхСервер</CommonModule>
 			<CommonModule>ЯндексДискОбменДанными</CommonModule>
@@ -294,6 +295,7 @@
 			<CommonForm>Настройки</CommonForm>
 			<CommonForm>ЯДФормаАвторизации</CommonForm>
 			<CommonForm>ФормаПодбораСпискаЗначений</CommonForm>
+			<CommonForm>ФормаВводаСсылкиКинопоиск</CommonForm>
 			<Catalog>Жанры</Catalog>
 			<Catalog>Кино</Catalog>
 			<Catalog>Страны</Catalog>
