@@ -1,99 +1,69 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
-	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
-	<Customizable>false</Customizable>
-	<CommandBarLocation>None</CommandBarLocation>
-	<CommandSet>
-		<ExcludedCommand>Abort</ExcludedCommand>
-		<ExcludedCommand>Cancel</ExcludedCommand>
-		<ExcludedCommand>CancelSearch</ExcludedCommand>
-		<ExcludedCommand>Change</ExcludedCommand>
-		<ExcludedCommand>ChangeHistory</ExcludedCommand>
-		<ExcludedCommand>Close</ExcludedCommand>
-		<ExcludedCommand>Copy</ExcludedCommand>
-		<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-		<ExcludedCommand>Find</ExcludedCommand>
-		<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
-		<ExcludedCommand>GetURL</ExcludedCommand>
-		<ExcludedCommand>Help</ExcludedCommand>
-		<ExcludedCommand>Ignore</ExcludedCommand>
-		<ExcludedCommand>ListSettings</ExcludedCommand>
-		<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-		<ExcludedCommand>No</ExcludedCommand>
-		<ExcludedCommand>OK</ExcludedCommand>
-		<ExcludedCommand>OpenFromMainServer</ExcludedCommand>
-		<ExcludedCommand>OpenFromStandaloneServer</ExcludedCommand>
-		<ExcludedCommand>OutputList</ExcludedCommand>
-		<ExcludedCommand>Refresh</ExcludedCommand>
-		<ExcludedCommand>RestoreValues</ExcludedCommand>
-		<ExcludedCommand>Retry</ExcludedCommand>
-		<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-		<ExcludedCommand>SaveValues</ExcludedCommand>
-		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-		<ExcludedCommand>Yes</ExcludedCommand>
-	</CommandSet>
-	<ShowCloseButton>false</ShowCloseButton>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="Группа3" id="65">
+		<UsualGroup name="Группа4" id="56">
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ThroughAlign>Use</ThroughAlign>
-			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="66"/>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="57"/>
 			<ChildItems>
-				<CommandBar name="Группа5" id="80">
+				<CommandBar name="Группа5" id="58">
 					<HorizontalStretch>false</HorizontalStretch>
 					<VerticalStretch>false</VerticalStretch>
-					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="81"/>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="59"/>
 					<ChildItems>
-						<ButtonGroup name="Группа4" id="82">
-							<Representation>Compact</Representation>
-							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="83"/>
+						<ButtonGroup name="Группа6" id="60">
+							<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="61"/>
 							<ChildItems>
-								<Button name="Просмотренные" id="74">
+								<Button name="Просмотренные" id="62">
 									<Type>CommandBarButton</Type>
 									<Height>1</Height>
 									<CommandName>Form.Command.Просмотренные</CommandName>
 									<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-									<ExtendedTooltip name="ПросмотренныеРасширеннаяПодсказка" id="75"/>
+									<ExtendedTooltip name="ПросмотренныеРасширеннаяПодсказка" id="63"/>
 								</Button>
-								<Button name="НеПросмотренные" id="76">
+								<Button name="НеПросмотренные" id="64">
 									<Type>CommandBarButton</Type>
 									<Height>1</Height>
 									<CommandName>Form.Command.НеПросмотренные</CommandName>
 									<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-									<ExtendedTooltip name="НеПросмотренныеРасширеннаяПодсказка" id="77"/>
+									<ExtendedTooltip name="НеПросмотренныеРасширеннаяПодсказка" id="65"/>
 								</Button>
-								<Button name="БезФильтра" id="78">
+								<Button name="БезФильтра" id="66">
 									<Type>CommandBarButton</Type>
 									<Height>1</Height>
 									<CommandName>Form.Command.БезФильтра</CommandName>
 									<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-									<ExtendedTooltip name="БезФильтраРасширеннаяПодсказка" id="79"/>
+									<ExtendedTooltip name="БезФильтраРасширеннаяПодсказка" id="67"/>
 								</Button>
 							</ChildItems>
 						</ButtonGroup>
 					</ChildItems>
 				</CommandBar>
-				<InputField name="ТипОтбор" id="69">
+				<InputField name="ТипОтбор" id="68">
 					<DataPath>Тип</DataPath>
-					<DropListButton>false</DropListButton>
-					<ChoiceButton>true</ChoiceButton>
+					<DropListButton>true</DropListButton>
+					<ChoiceButton>false</ChoiceButton>
 					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 					<ClearButton>true</ClearButton>
 					<SpinButton>false</SpinButton>
 					<OpenButton>false</OpenButton>
 					<CreateButton>false</CreateButton>
 					<ListChoiceMode>true</ListChoiceMode>
+					<QuickChoice>true</QuickChoice>
 					<ChooseType>false</ChooseType>
+					<IncompleteChoiceMode>OnActivate</IncompleteChoiceMode>
+					<TextEdit>false</TextEdit>
 					<ChoiceList>
 						<xr:Item>
 							<xr:Presentation/>
@@ -141,8 +111,9 @@
 							</xr:Value>
 						</xr:Item>
 					</ChoiceList>
-					<ContextMenu name="ТипОтборКонтекстноеМеню" id="70"/>
-					<ExtendedTooltip name="ТипОтборРасширеннаяПодсказка" id="71"/>
+					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+					<ContextMenu name="ТипОтборКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ТипОтборРасширеннаяПодсказка" id="70"/>
 					<Events>
 						<Event name="OnChange">ТипОтборПриИзменении</Event>
 					</Events>
@@ -162,7 +133,6 @@
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Vertical</Group>
-			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
 		</UsualGroup>
@@ -170,20 +140,18 @@
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
-			<ChoiceMode>true</ChoiceMode>
 			<SelectionMode>SingleRow</SelectionMode>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
-			<InitialListView>Beginning</InitialListView>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<Font ref="style:NormalTextFont" height="7" kind="StyleItem"/>
 			<CommandSet>
 				<ExcludedCommand>CancelSearch</ExcludedCommand>
 				<ExcludedCommand>ChangeHistory</ExcludedCommand>
-				<ExcludedCommand>Choose</ExcludedCommand>
 				<ExcludedCommand>Copy</ExcludedCommand>
-				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
 				<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
 				<ExcludedCommand>Find</ExcludedCommand>
 				<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
@@ -191,7 +159,6 @@
 				<ExcludedCommand>ListSettings</ExcludedCommand>
 				<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
 				<ExcludedCommand>OutputList</ExcludedCommand>
-				<ExcludedCommand>Refresh</ExcludedCommand>
 				<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
 				<ExcludedCommand>SearchEverywhere</ExcludedCommand>
 				<ExcludedCommand>SearchHistory</ExcludedCommand>
@@ -215,10 +182,10 @@
 			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<ContextMenu name="СписокКонтекстноеМеню" id="4">
 				<ChildItems>
-					<Button name="СписокКонтекстноеМенюУдалить" id="93">
+					<Button name="СписокКонтекстноеМенюУдалить" id="71">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Удалить</CommandName>
-						<ExtendedTooltip name="СписокКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="94"/>
+						<ExtendedTooltip name="СписокКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="72"/>
 					</Button>
 				</ChildItems>
 			</ContextMenu>
@@ -250,65 +217,32 @@
 				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
-			<Events>
-				<Event name="Selection">СписокВыбор</Event>
-			</Events>
 			<ChildItems>
-				<ColumnGroup name="ГруппаНазвание" id="43">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа название</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Group name</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа название</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Group name</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="ГруппаНазваниеРасширеннаяПодсказка" id="44"/>
+				<ColumnGroup name="Группа1" id="37">
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="38"/>
 					<ChildItems>
 						<LabelField name="Наименование" id="16">
 							<DataPath>Список.Наименование</DataPath>
 							<DefaultItem>true</DefaultItem>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Название</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Name</v8:content>
-								</v8:item>
-							</Title>
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 						</LabelField>
-						<LabelField name="ОригинальноеНазвание" id="28">
+						<LabelField name="ОригинальноеНазвание" id="31">
 							<DataPath>Список.ОригинальноеНазвание</DataPath>
-							<ContextMenu name="ОригинальноеНазваниеКонтекстноеМеню" id="29"/>
-							<ExtendedTooltip name="ОригинальноеНазваниеРасширеннаяПодсказка" id="30"/>
+							<ContextMenu name="ОригинальноеНазваниеКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ОригинальноеНазваниеРасширеннаяПодсказка" id="33"/>
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
-				<ColumnGroup name="Группа1" id="61">
-					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="62"/>
+				<ColumnGroup name="Группа2" id="39">
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="40"/>
 					<ChildItems>
 						<LabelField name="ГодВыпуска" id="19">
 							<DataPath>Список.ГодВыпуска</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>год Н</v8:content>
+									<v8:content>Год Н</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
@@ -318,7 +252,7 @@
 							<ContextMenu name="ГодВыпускаКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="ГодВыпускаРасширеннаяПодсказка" id="21"/>
 						</LabelField>
-						<LabelField name="ГодОкончания" id="34">
+						<LabelField name="ГодОкончания" id="22">
 							<DataPath>Список.ГодОкончания</DataPath>
 							<Title>
 								<v8:item>
@@ -330,21 +264,20 @@
 									<v8:content>Final year</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="ГодОкончанияКонтекстноеМеню" id="35"/>
-							<ExtendedTooltip name="ГодОкончанияРасширеннаяПодсказка" id="36"/>
+							<ContextMenu name="ГодОкончанияКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ГодОкончанияРасширеннаяПодсказка" id="24"/>
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
-				<LabelField name="Тип" id="31">
+				<LabelField name="Тип" id="34">
 					<DataPath>Список.Тип</DataPath>
-					<Font ref="style:NormalTextFont" height="7" kind="StyleItem"/>
-					<ContextMenu name="ТипКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="33"/>
+					<ContextMenu name="ТипКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="36"/>
 				</LabelField>
-				<ColumnGroup name="Группа2" id="63">
-					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="64"/>
+				<ColumnGroup name="Группа3" id="41">
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="42"/>
 					<ChildItems>
-						<LabelField name="КодКинопоиск" id="22">
+						<LabelField name="КодКинопоиск" id="28">
 							<DataPath>Список.КодКинопоиск</DataPath>
 							<Title>
 								<v8:item>
@@ -356,10 +289,10 @@
 									<v8:content>KinoPoisk</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="КодКинопоискКонтекстноеМеню" id="23"/>
-							<ExtendedTooltip name="КодКинопоискРасширеннаяПодсказка" id="24"/>
+							<ContextMenu name="КодКинопоискКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="КодКинопоискРасширеннаяПодсказка" id="30"/>
 						</LabelField>
-						<LabelField name="КодIMDB" id="40">
+						<LabelField name="КодIMDB" id="25">
 							<DataPath>Список.КодIMDB</DataPath>
 							<Title>
 								<v8:item>
@@ -371,38 +304,25 @@
 									<v8:content>IMDB</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="КодIMDBКонтекстноеМеню" id="41"/>
-							<ExtendedTooltip name="КодIMDBРасширеннаяПодсказка" id="42"/>
+							<ContextMenu name="КодIMDBКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="КодIMDBРасширеннаяПодсказка" id="27"/>
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
-				<CheckBoxField name="Просмотрен" id="53">
-					<DataPath>Список.Просмотрен</DataPath>
-					<Visible>false</Visible>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ПросмотренКонтекстноеМеню" id="54"/>
-					<ExtendedTooltip name="ПросмотренРасширеннаяПодсказка" id="55"/>
-				</CheckBoxField>
-				<LabelField name="Описание" id="25">
-					<DataPath>Список.Описание</DataPath>
-					<Visible>false</Visible>
-					<ContextMenu name="ОписаниеКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="27"/>
-				</LabelField>
 			</ChildItems>
 		</Table>
-		<Button name="Создать" id="67">
+		<Button name="Создать" id="54">
 			<Type>UsualButton</Type>
 			<DefaultButton>true</DefaultButton>
 			<HorizontalStretch>true</HorizontalStretch>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.StandardCommand.Create</CommandName>
+			<CommandName>Form.Item.Список.StandardCommand.Create</CommandName>
 			<BorderColor>#848484</BorderColor>
 			<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 			<Shape>Oval</Shape>
-			<ExtendedTooltip name="СоздатьРасширеннаяПодсказка" id="68"/>
+			<ExtendedTooltip name="СоздатьРасширеннаяПодсказка" id="55"/>
 		</Button>
-		<UsualGroup name="ГруппаКнопки" id="45">
+		<UsualGroup name="ГруппаКнопки" id="43">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -428,9 +348,9 @@
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ThroughAlign>Use</ThroughAlign>
-			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="46"/>
+			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="44"/>
 			<ChildItems>
-				<LabelDecoration name="Жанры" id="84">
+				<LabelDecoration name="Жанры" id="45">
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -442,13 +362,13 @@
 						</v8:item>
 					</Title>
 					<Hyperlink>true</Hyperlink>
-					<ContextMenu name="ЖанрыКонтекстноеМеню" id="85"/>
-					<ExtendedTooltip name="ЖанрыРасширеннаяПодсказка" id="86"/>
+					<ContextMenu name="ЖанрыКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ЖанрыРасширеннаяПодсказка" id="47"/>
 					<Events>
 						<Event name="Click">ЖанрыНажатие</Event>
 					</Events>
 				</LabelDecoration>
-				<LabelDecoration name="Страны" id="87">
+				<LabelDecoration name="Страны" id="48">
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -460,13 +380,13 @@
 						</v8:item>
 					</Title>
 					<Hyperlink>true</Hyperlink>
-					<ContextMenu name="СтраныКонтекстноеМеню" id="88"/>
-					<ExtendedTooltip name="СтраныРасширеннаяПодсказка" id="89"/>
+					<ContextMenu name="СтраныКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="СтраныРасширеннаяПодсказка" id="50"/>
 					<Events>
 						<Event name="Click">СтраныНажатие</Event>
 					</Events>
 				</LabelDecoration>
-				<LabelDecoration name="Настройки" id="90">
+				<LabelDecoration name="Настройки" id="51">
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -478,8 +398,8 @@
 						</v8:item>
 					</Title>
 					<Hyperlink>true</Hyperlink>
-					<ContextMenu name="НастройкиКонтекстноеМеню" id="91"/>
-					<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="92"/>
+					<ContextMenu name="НастройкиКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="53"/>
 					<Events>
 						<Event name="Click">НастройкиНажатие</Event>
 					</Events>
@@ -495,23 +415,28 @@
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>false</DynamicDataRead>
+				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
-	СправочникКино.Ссылка КАК Ссылка,
-	СправочникКино.Наименование КАК Наименование,
-	СправочникКино.ГодВыпуска КАК ГодВыпуска,
-	СправочникКино.ГодОкончания КАК ГодОкончания,
-	СправочникКино.КодIMDB КАК КодIMDB,
-	СправочникКино.КодКинопоиск КАК КодКинопоиск,
-	СправочникКино.КоличествоСезонов КАК КоличествоСезонов,
-	СправочникКино.Описание КАК Описание,
-	СправочникКино.ОригинальноеНазвание КАК ОригинальноеНазвание,
-	СправочникКино.Тип КАК Тип,
-	СправочникКино.Просмотрен КАК Просмотрен,
-	СправочникКино.Предопределенный КАК Предопределенный,
-	СправочникКино.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
+	СправочникКино.Ссылка,
+	СправочникКино.ПометкаУдаления,
+	СправочникКино.Код,
+	СправочникКино.Наименование,
+	СправочникКино.ГодВыпуска,
+	СправочникКино.ГодОкончания,
+	СправочникКино.КодIMDB,
+	СправочникКино.КодКинопоиск,
+	СправочникКино.КоличествоСезонов,
+	СправочникКино.Описание,
+	СправочникКино.ОригинальноеНазвание,
+	СправочникКино.Тип,
+	СправочникКино.Просмотрен,
+	СправочникКино.Жанры,
+	СправочникКино.Серии,
+	СправочникКино.Страны,
+	СправочникКино.Предопределенный,
+	СправочникКино.ИмяПредопределенныхДанных
 ИЗ
-	Справочник.Кино КАК СправочникКино
+	Справочник.Кино КАК СправочникКино 
 ГДЕ
 	ВЫБОР
 			КОГДА &amp;ФильтрПросмотр = 0
@@ -526,22 +451,30 @@
 			КОГДА &amp;ТИП = ЗНАЧЕНИЕ(Перечисление.ТипыКино.ПустаяСсылка)
 				ТОГДА ИСТИНА
 			ИНАЧЕ СправочникКино.Тип = &amp;ТИП
-		КОНЕЦ</QueryText>
+		КОНЕЦ	</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Жанры</dcssch:dataPath>
-					<dcssch:field>Жанры</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
-					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+					<dcssch:dataPath>Серии.НомерСтроки</dcssch:dataPath>
+					<dcssch:field>Серии.НомерСтроки</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Ссылка</dcssch:dataPath>
 					<dcssch:field>Ссылка</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Серии</dcssch:dataPath>
-					<dcssch:field>Серии</dcssch:field>
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Код</dcssch:dataPath>
+					<dcssch:field>Код</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодIMDB</dcssch:dataPath>
+					<dcssch:field>КодIMDB</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ГодОкончания</dcssch:dataPath>
@@ -552,40 +485,36 @@
 					<dcssch:field>ГодВыпуска</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Страны</dcssch:dataPath>
-					<dcssch:field>Страны</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
-					<dcssch:field>ПометкаУдаления</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Просмотрен</dcssch:dataPath>
-					<dcssch:field>Просмотрен</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Код</dcssch:dataPath>
-					<dcssch:field>Код</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Наименование</dcssch:dataPath>
-					<dcssch:field>Наименование</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>КодIMDB</dcssch:dataPath>
-					<dcssch:field>КодIMDB</dcssch:field>
+					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>КодКинопоиск</dcssch:dataPath>
 					<dcssch:field>КодКинопоиск</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Страны.Ссылка</dcssch:dataPath>
+					<dcssch:field>Страны.Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии.НазваниеСерии</dcssch:dataPath>
+					<dcssch:field>Серии.НазваниеСерии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>КоличествоСезонов</dcssch:dataPath>
 					<dcssch:field>КоличествоСезонов</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии.ДатаВыходаСерии</dcssch:dataPath>
+					<dcssch:field>Серии.ДатаВыходаСерии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Описание</dcssch:dataPath>
 					<dcssch:field>Описание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Жанры.НомерСтроки</dcssch:dataPath>
+					<dcssch:field>Жанры.НомерСтроки</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ОригинальноеНазвание</dcssch:dataPath>
@@ -594,6 +523,66 @@
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Тип</dcssch:dataPath>
 					<dcssch:field>Тип</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Просмотрен</dcssch:dataPath>
+					<dcssch:field>Просмотрен</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Жанры.Ссылка</dcssch:dataPath>
+					<dcssch:field>Жанры.Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Жанры.Жанр</dcssch:dataPath>
+					<dcssch:field>Жанры.Жанр</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldNestedDataSet">
+					<dcssch:dataPath>Жанры</dcssch:dataPath>
+					<dcssch:field>Жанры</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии.Ссылка</dcssch:dataPath>
+					<dcssch:field>Серии.Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии.СезонСтрока</dcssch:dataPath>
+					<dcssch:field>Серии.СезонСтрока</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии.Сезон</dcssch:dataPath>
+					<dcssch:field>Серии.Сезон</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии.Описание</dcssch:dataPath>
+					<dcssch:field>Серии.Описание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии.СерияСтрока</dcssch:dataPath>
+					<dcssch:field>Серии.СерияСтрока</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии.Серия</dcssch:dataPath>
+					<dcssch:field>Серии.Серия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серии.Просмотрена</dcssch:dataPath>
+					<dcssch:field>Серии.Просмотрена</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldNestedDataSet">
+					<dcssch:dataPath>Серии</dcssch:dataPath>
+					<dcssch:field>Серии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Страны.НомерСтроки</dcssch:dataPath>
+					<dcssch:field>Страны.НомерСтроки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Страны.Страна</dcssch:dataPath>
+					<dcssch:field>Страны.Страна</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldNestedDataSet">
+					<dcssch:dataPath>Страны</dcssch:dataPath>
+					<dcssch:field>Страны</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
@@ -655,7 +644,7 @@
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>ЦветФона</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">#C0C0C0</dcscor:value>
+									<dcscor:value xsi:type="v8ui:Color">#BEBEBE</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
 						</dcsset:item>
@@ -667,7 +656,7 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="ВходПоПаролю" id="3">
+		<Attribute name="ВходПоПаролю" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -682,7 +671,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="Тип" id="4">
+		<Attribute name="Тип" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -697,7 +686,7 @@
 				<v8:Type>cfg:EnumRef.ТипыКино</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ФильтрПросмотр" id="5">
+		<Attribute name="ФильтрПросмотр" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -719,7 +708,35 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="Жанры" id="1">
+		<Command name="БезФильтра" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Без фильтра</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Without filter</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Без фильтра</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Without filter</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ГлазПеречеркнутый</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>БезФильтра</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="Жанры" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -742,30 +759,7 @@
 			</ToolTip>
 			<Action>Жанры</Action>
 		</Command>
-		<Command name="Страны" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Страны</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Countries</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Страны</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Countries</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>Страны</Action>
-		</Command>
-		<Command name="Настройки" id="4">
+		<Command name="Настройки" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -788,35 +782,7 @@
 			</ToolTip>
 			<Action>Настройки</Action>
 		</Command>
-		<Command name="Просмотренные" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Просмотренные</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Viewed</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Просмотренные</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Viewed</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>CommonPicture.ГлазОткрытый</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action>Просмотренные</Action>
-			<Representation>Picture</Representation>
-		</Command>
-		<Command name="НеПросмотренные" id="5">
+		<Command name="НеПросмотренные" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -844,33 +810,56 @@
 			<Action>НеПросмотренные</Action>
 			<Representation>Picture</Representation>
 		</Command>
-		<Command name="БезФильтра" id="6">
+		<Command name="Просмотренные" id="5">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Без фильтра</v8:content>
+					<v8:content>Просмотренные</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Without filter</v8:content>
+					<v8:content>Viewed</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Без фильтра</v8:content>
+					<v8:content>Просмотренные</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Without filter</v8:content>
+					<v8:content>Viewed</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>CommonPicture.ГлазПеречеркнутый</xr:Ref>
+				<xr:Ref>CommonPicture.ГлазОткрытый</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>БезФильтра</Action>
+			<Action>Просмотренные</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="Страны" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страны</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Countries</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страны</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Countries</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Страны</Action>
 		</Command>
 		<Command name="Удалить" id="7">
 			<Title>
