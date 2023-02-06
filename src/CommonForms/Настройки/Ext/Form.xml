@@ -398,6 +398,15 @@
 						<Event name="OnChange">КонстантыПриИзменении</Event>
 					</Events>
 				</InputField>
+				<CheckBoxField name="ВыводитьКнопкиЖанровИСтранВСписокКино" id="90">
+					<DataPath>ВыводитьКнопкиЖанровИСтранВСписокКино</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВыводитьКнопкиЖанровИСтранВСписокКиноКонтекстноеМеню" id="91"/>
+					<ExtendedTooltip name="ВыводитьКнопкиЖанровИСтранВСписокКиноРасширеннаяПодсказка" id="92"/>
+					<Events>
+						<Event name="OnChange">КонстантыПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
 				<InputField name="ПарольДляВхода" id="64">
 					<DataPath>ПарольДляВхода</DataPath>
 					<SkipOnInput>true</SkipOnInput>
@@ -961,6 +970,21 @@
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыводитьКнопкиЖанровИСтранВСписокКино" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выводить кнопки жанров и стран в список кино</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Display genre and country buttons in the movie list</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

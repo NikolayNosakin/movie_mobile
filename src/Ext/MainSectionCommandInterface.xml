@@ -16,6 +16,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Report.СтатистикаПросмотров.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.ЯД_ID_Приложения.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -27,6 +32,11 @@
 			</Visibility>
 		</Command>
 		<Command name="Constant.ВерсияПриложения.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ВысотаШрифтаСписка.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

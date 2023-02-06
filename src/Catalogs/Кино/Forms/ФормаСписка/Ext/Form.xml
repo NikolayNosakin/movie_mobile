@@ -74,6 +74,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>  </v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content> </v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКино.EmptyRef</Value>
 							</xr:Value>
@@ -326,88 +330,66 @@
 			<Shape>Oval</Shape>
 			<ExtendedTooltip name="СоздатьРасширеннаяПодсказка" id="55"/>
 		</Button>
-		<UsualGroup name="ГруппаКнопки" id="43">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа кнопки</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Button Group</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа кнопки</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Button Group</v8:content>
-				</v8:item>
-			</ToolTip>
+		<UsualGroup name="ГруппаКнопки" id="84">
+			<ToolTipRepresentation>None</ToolTipRepresentation>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>false</VerticalStretch>
 			<Group>AlwaysHorizontal</Group>
+			<VerticalSpacing>None</VerticalSpacing>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ThroughAlign>Use</ThroughAlign>
-			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="44"/>
+			<ThroughAlign>DontUse</ThroughAlign>
+			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="85"/>
 			<ChildItems>
-				<LabelDecoration name="Жанры" id="45">
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Жанры</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Genres</v8:content>
-						</v8:item>
-					</Title>
+				<Button name="Жанры" id="80">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.Жанры</CommandName>
+					<ExtendedTooltip name="ЖанрыРасширеннаяПодсказка" id="81"/>
+				</Button>
+				<Button name="Страны" id="82">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.Страны</CommandName>
+					<ExtendedTooltip name="СтраныРасширеннаяПодсказка" id="83"/>
+				</Button>
+				<PictureDecoration name="КнСтатистика" id="93">
 					<Hyperlink>true</Hyperlink>
-					<ContextMenu name="ЖанрыКонтекстноеМеню" id="46"/>
-					<ExtendedTooltip name="ЖанрыРасширеннаяПодсказка" id="47"/>
+					<Picture>
+						<xr:Ref>StdPicture.Report</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="КнСтатистикаКонтекстноеМеню" id="94"/>
+					<ExtendedTooltip name="КнСтатистикаРасширеннаяПодсказка" id="95"/>
 					<Events>
-						<Event name="Click">ЖанрыНажатие</Event>
+						<Event name="Click">Статистика</Event>
 					</Events>
-				</LabelDecoration>
-				<LabelDecoration name="Страны" id="48">
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Страны</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Countries</v8:content>
-						</v8:item>
-					</Title>
+				</PictureDecoration>
+				<Button name="Статистика" id="86">
+					<Type>Hyperlink</Type>
+					<Visible>false</Visible>
+					<CommandName>Form.Command.Статистика</CommandName>
+					<ExtendedTooltip name="СтатистикаРасширеннаяПодсказка" id="87"/>
+				</Button>
+				<PictureDecoration name="КнНастройки" id="90">
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 					<Hyperlink>true</Hyperlink>
-					<ContextMenu name="СтраныКонтекстноеМеню" id="49"/>
-					<ExtendedTooltip name="СтраныРасширеннаяПодсказка" id="50"/>
-					<Events>
-						<Event name="Click">СтраныНажатие</Event>
-					</Events>
-				</LabelDecoration>
-				<LabelDecoration name="Настройки" id="51">
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Settings</v8:content>
-						</v8:item>
-					</Title>
-					<Hyperlink>true</Hyperlink>
-					<ContextMenu name="НастройкиКонтекстноеМеню" id="52"/>
-					<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="53"/>
+					<Picture>
+						<xr:Ref>StdPicture.Setting</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="КнНастройкиКонтекстноеМеню" id="91"/>
+					<ExtendedTooltip name="КнНастройкиРасширеннаяПодсказка" id="92"/>
 					<Events>
 						<Event name="Click">НастройкиНажатие</Event>
 					</Events>
-				</LabelDecoration>
+				</PictureDecoration>
+				<Button name="Настройки" id="88">
+					<Type>Hyperlink</Type>
+					<Visible>false</Visible>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>Form.Command.Настройки</CommandName>
+					<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="89"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -761,7 +743,10 @@
 					<v8:content>Genres</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>Жанры</Action>
+			<Action>ЖанрыНажатие</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ВыводитьКнопкиЖанровИСтранВСписокКино</Item>
+			</FunctionalOptions>
 		</Command>
 		<Command name="Настройки" id="3">
 			<Title>
@@ -784,7 +769,11 @@
 					<v8:content>Settings</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>Настройки</Action>
+			<Picture>
+				<xr:Ref>StdPicture.Setting</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>НастройкиНажатие</Action>
 		</Command>
 		<Command name="НеПросмотренные" id="4">
 			<Title>
@@ -863,7 +852,10 @@
 					<v8:content>Countries</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>Страны</Action>
+			<Action>СтраныНажатие</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ВыводитьКнопкиЖанровИСтранВСписокКино</Item>
+			</FunctionalOptions>
 		</Command>
 		<Command name="Удалить" id="7">
 			<Title>
@@ -892,6 +884,33 @@
 			</Picture>
 			<Action>Удалить</Action>
 			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="Статистика" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статистика</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Statistics</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статистика</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Statistics</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Report</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Статистика</Action>
 		</Command>
 	</Commands>
 </Form>

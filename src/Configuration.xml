@@ -53,7 +53,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>2.2.0.1</Version>
+			<Version>2.3.0.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/movie_mobile</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -278,6 +278,7 @@
 			<CommonModule>СлужебноеВызовСервера</CommonModule>
 			<FunctionalOption>ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</FunctionalOption>
 			<FunctionalOption>СкрыватьПросмотренныеСерии</FunctionalOption>
+			<FunctionalOption>ВыводитьКнопкиЖанровИСтранВСписокКино</FunctionalOption>
 			<Constant>kinopoisk_unofficial_api_token</Constant>
 			<Constant>ВерсияПриложения</Constant>
 			<Constant>ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</Constant>
@@ -292,6 +293,7 @@
 			<Constant>ЯД_Токен</Constant>
 			<Constant>СериалыПреобразованы</Constant>
 			<Constant>ВысотаШрифтаСписка</Constant>
+			<Constant>ВыводитьКнопкиЖанровИСтранВСписокКино</Constant>
 			<CommonForm>ВходПоПаролю</CommonForm>
 			<CommonForm>Настройки</CommonForm>
 			<CommonForm>ЯДФормаАвторизации</CommonForm>
@@ -302,6 +304,7 @@
 			<Catalog>Страны</Catalog>
 			<Enum>СтилиОформления</Enum>
 			<Enum>ТипыКино</Enum>
+			<Report>СтатистикаПросмотров</Report>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
