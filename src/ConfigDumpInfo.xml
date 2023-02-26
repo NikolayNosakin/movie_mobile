@@ -2,7 +2,7 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
 	<ConfigVersions>
 		<Metadata name="Catalog.Жанры" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec" configVersion="0c8618a5f90f9f488ebc5f695121443f00000000"/>
-		<Metadata name="Catalog.Кино" id="f60fdffa-cd0a-469a-8607-8a0b28b1f12a" configVersion="3c4988f44e53b44fba7241b0a8a3b40300000000">
+		<Metadata name="Catalog.Кино" id="f60fdffa-cd0a-469a-8607-8a0b28b1f12a" configVersion="e6cbaf503fec6941889bbcded89545d000000000">
 			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.ДатаВыходаСерии" id="01f3b84f-df93-4de9-a613-7d60b253396d"/>
 			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.Просмотрена" id="1245109a-53f2-4887-a113-d4039d49057a"/>
 			<Metadata name="Catalog.Кино.Attribute.ГодОкончания" id="190d0f5a-3a94-4c79-9a1b-827c13d49c7d"/>
@@ -15,11 +15,9 @@
 			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.НазваниеСерии" id="7cfdb1f7-20ea-4b6e-a599-60958948fbe4"/>
 			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.Серия" id="85242d2e-0dac-43b8-a5b9-e8dbccba981e"/>
 			<Metadata name="Catalog.Кино.Attribute.КодКинопоиск" id="8e3578f5-8da2-43c8-9af4-37b55859d6a2"/>
-			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.СезонСтрока" id="8f655233-3f28-4e86-9843-2845e73ce6bf"/>
 			<Metadata name="Catalog.Кино.TabularSection.Жанры.Attribute.Жанр" id="9209ae50-45c9-418b-b148-f57f224f5daf"/>
 			<Metadata name="Catalog.Кино.Attribute.КодIMDB" id="9e30d5d6-05a1-4d7c-aff7-a09cd25ad12e"/>
 			<Metadata name="Catalog.Кино.Attribute.КоличествоСезонов" id="a5762c97-4b95-4745-803a-5c4903bc17a0"/>
-			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.СерияСтрока" id="b759d56b-5f46-4475-bfcd-a8ffa1dc9888"/>
 			<Metadata name="Catalog.Кино.TabularSection.Страны" id="c4d1e056-ed55-49aa-a1b0-a923bd12f7fa"/>
 			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.Сезон" id="c857f26c-d9c5-4b63-9499-8bede06f6b02"/>
 			<Metadata name="Catalog.Кино.Attribute.ОригинальноеНазвание" id="eabccc78-c3bf-4622-ae23-8624f806f901"/>
@@ -28,27 +26,27 @@
 		</Metadata>
 		<Metadata name="Catalog.Кино.Form.ФормаСписка" id="1500bd8b-2c56-448d-8391-b3791e693fd0" configVersion="f010eadf7f44654bb0b5a3170616090400000000"/>
 		<Metadata name="Catalog.Кино.Form.ФормаСписка.Form" id="1500bd8b-2c56-448d-8391-b3791e693fd0.0" configVersion="f989fd8d72572b4083582e90fc593a9200000000"/>
-		<Metadata name="Catalog.Кино.Form.ФормаЭлемента" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530" configVersion="a3027285ab2d1f48b95e8fc05cddaabd00000000"/>
-		<Metadata name="Catalog.Кино.Form.ФормаЭлемента.Form" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530.0" configVersion="95859089aa02cf44b2e639f9ff83b77100000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаЭлемента" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530" configVersion="a8246bd231bd7b4d9fc9276eeaedf7df00000000"/>
+		<Metadata name="Catalog.Кино.Form.ФормаЭлемента.Form" id="9ab9aa1b-e8ef-4efa-a2ee-29cfb6e54530.0" configVersion="46f07c67c1468142bcf6f1656d2f172400000000"/>
 		<Metadata name="Catalog.Страны" id="57e9b420-61a6-4167-b153-06002ee6775f" configVersion="6d8f0dc1f7b83e4192d3597cb2a73f1b00000000"/>
 		<Metadata name="CommonForm.ВходПоПаролю" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620" configVersion="36f0f05cdcc692419d72814de779bcfc00000000"/>
 		<Metadata name="CommonForm.ВходПоПаролю.Form" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620.0" configVersion="6fbd44c784e92849adbfee84f6ff8f5200000000"/>
-		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="e5945bc0f07665498a3119ad33448aec00000000"/>
-		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="03999202b007e74b9d8814e782f79ce400000000"/>
+		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="f34a3c1c43cbd84da109e18aa61e3c9500000000"/>
+		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="1782d26d9c6fcf42a35d7bdf6f4f444200000000"/>
 		<Metadata name="CommonForm.ФормаВводаСсылкиКинопоиск" id="aaa4b307-2d4c-460b-84b2-da1b5d8bb9b0" configVersion="502261d88ee92f439aa901d17dc85ba700000000"/>
 		<Metadata name="CommonForm.ФормаВводаСсылкиКинопоиск.Form" id="aaa4b307-2d4c-460b-84b2-da1b5d8bb9b0.0" configVersion="b0facef5f470274f866c4dc53ad99d4f00000000"/>
 		<Metadata name="CommonForm.ФормаПодбораСпискаЗначений" id="a7a3395c-069e-428b-bc0c-33db5622b497" configVersion="96a55b6f03f4a8418a02dec146b11d2e00000000"/>
 		<Metadata name="CommonForm.ФормаПодбораСпискаЗначений.Form" id="a7a3395c-069e-428b-bc0c-33db5622b497.0" configVersion="f0d00e0f4a64964eb13aff1cb366e6f700000000"/>
 		<Metadata name="CommonForm.ЯДФормаАвторизации" id="413af10e-3ebf-42db-9927-0c4e1362c3a7" configVersion="24f5936ba67b0747b96acf92114c583400000000"/>
 		<Metadata name="CommonForm.ЯДФормаАвторизации.Form" id="413af10e-3ebf-42db-9927-0c4e1362c3a7.0" configVersion="347e597dfea2c34eb69cca8ee74eab4f00000000"/>
-		<Metadata name="CommonModule.kinopoisk_unofficial_api" id="db0031c3-f450-4439-a4db-c4e69f502e98" configVersion="ad9c201740b26649b348a7a31770536900000000"/>
-		<Metadata name="CommonModule.kinopoisk_unofficial_api.Module" id="db0031c3-f450-4439-a4db-c4e69f502e98.0" configVersion="0e5d40ef64bcb24aa8b139289f9ab50e00000000"/>
+		<Metadata name="CommonModule.kinopoisk_unofficial_api" id="db0031c3-f450-4439-a4db-c4e69f502e98" configVersion="3dffdd5ff5a7a5468606525be7eb6f9700000000"/>
+		<Metadata name="CommonModule.kinopoisk_unofficial_api.Module" id="db0031c3-f450-4439-a4db-c4e69f502e98.0" configVersion="f22a8851cdba4a4ab4988352e4f6baf000000000"/>
 		<Metadata name="CommonModule.СлужебноеВызовСервера" id="e06b6fc2-eb63-4d9f-b12f-436073ac3153" configVersion="1a56f976ac4d1d4c8b9f3c43059fd53f00000000"/>
 		<Metadata name="CommonModule.СлужебноеВызовСервера.Module" id="e06b6fc2-eb63-4d9f-b12f-436073ac3153.0" configVersion="e412a90192ad51428e03824b14f24f7e00000000"/>
 		<Metadata name="CommonModule.СлужебноеКлиент" id="5a69e6aa-3626-4f8d-9990-9b3206131a0a" configVersion="04f69d4abdc04041820b7c9c02c6f12400000000"/>
 		<Metadata name="CommonModule.СлужебноеКлиент.Module" id="5a69e6aa-3626-4f8d-9990-9b3206131a0a.0" configVersion="4b68e3ae95878a40959c4204a393e62900000000"/>
-		<Metadata name="CommonModule.СлужебноеСервер" id="1530a2fd-592e-4b72-91d2-f1e4120e7d83" configVersion="0cb5ebe1a9342c42a107bbf744c87fd500000000"/>
-		<Metadata name="CommonModule.СлужебноеСервер.Module" id="1530a2fd-592e-4b72-91d2-f1e4120e7d83.0" configVersion="21fab8720838cb409564bb299a2e730100000000"/>
+		<Metadata name="CommonModule.СлужебноеСервер" id="1530a2fd-592e-4b72-91d2-f1e4120e7d83" configVersion="3db9bd04e7e88a47b1c13d499ce4589e00000000"/>
+		<Metadata name="CommonModule.СлужебноеСервер.Module" id="1530a2fd-592e-4b72-91d2-f1e4120e7d83.0" configVersion="40fce28da0f5c94ca9bb697fdf446edd00000000"/>
 		<Metadata name="CommonModule.СохранениеВосстановлениеДанныхСервер" id="83dbe358-56ce-42e8-b0f1-4e083a0f99b1" configVersion="7409b6904d143443ae7452ed158aeaac00000000"/>
 		<Metadata name="CommonModule.СохранениеВосстановлениеДанныхСервер.Module" id="83dbe358-56ce-42e8-b0f1-4e083a0f99b1.0" configVersion="bf48a47504a9ec4f8f02975885802ebb00000000"/>
 		<Metadata name="CommonModule.ЯндексДискОбменДанными" id="e526e720-b569-453a-8e40-269c0ab60238" configVersion="3873d19ca26a8b409f65183ee962f2d800000000"/>
@@ -67,7 +65,7 @@
 		<Metadata name="CommonPicture.ЗаполнитьФорму.Picture" id="f0486de7-ea5c-467e-88f2-35ac1cb9d094.0" configVersion="100dd271d8c3f14ea3f8c97231df389700000000"/>
 		<Metadata name="CommonPicture.СинхронизацияДанных" id="e59168d6-698c-46ee-b485-1f1fb5493fe1" configVersion="fd344d8ff2b8dd46b77b217b1155c02e00000000"/>
 		<Metadata name="CommonPicture.СинхронизацияДанных.Picture" id="e59168d6-698c-46ee-b485-1f1fb5493fe1.0" configVersion="38f4b0817bc67d428046de2fcd9ec9e600000000"/>
-		<Metadata name="Configuration.КиноМП" id="a057eabd-a60d-4303-97a3-9331473edd76" configVersion="6fdd0ffec546554098cf06d6b83ad99100000000"/>
+		<Metadata name="Configuration.КиноМП" id="a057eabd-a60d-4303-97a3-9331473edd76" configVersion="c972f303117c204dbe0e02c0275b7c2200000000"/>
 		<Metadata name="Configuration.КиноМП.HomePageWorkArea" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.8" configVersion="71f9459bc49f4f4aac2ceb7a9e11cc0000000000"/>
 		<Metadata name="Configuration.КиноМП.MainSectionCommandInterface" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.9" configVersion="86916c30f413984fb9da9e785e78117300000000"/>
 		<Metadata name="Configuration.КиноМП.ManagedApplicationModule" id="ba1a214b-9c5d-418f-954b-4990ba7a91f9.6" configVersion="4297ca3e3174c44a85c9e3b679426d9300000000"/>
@@ -78,8 +76,8 @@
 		<Metadata name="Constant.ВысотаШрифтаСписка" id="90ada267-db09-4acb-a5e3-ea8635114cce" configVersion="9353c6cdadb1564c896728b6d60d078600000000"/>
 		<Metadata name="Constant.ИспользуетсяЗаполнениеИзКинопоискаПоАПИ" id="97252701-5aca-4d65-bfd3-38bcd8d5d897" configVersion="ff9cf5969b0af940a8650c8145545e6a00000000"/>
 		<Metadata name="Constant.ПарольДляВхода" id="eb8866fa-ec01-48d1-817a-00dd4fb2ad7e" configVersion="1a4603d1591a2642a3e43b2754f2a52d00000000"/>
+		<Metadata name="Constant.ПроверкаНаДубльПоКодуКинопоиска" id="456d8dfe-cdb9-4eac-a98a-7d3833088ad8" configVersion="1cc2ff90a1a4ec41b05df71ec718748700000000"/>
 		<Metadata name="Constant.РезервноеКопированиеНаЯндексДиск" id="ad16ec5d-aae9-46a1-b999-52750be415c4" configVersion="52a3fd4777b2c64d96c413e7239c681800000000"/>
-		<Metadata name="Constant.СериалыПреобразованы" id="8e522db5-2d40-4a53-bd96-ac55b7d56c81" configVersion="620002b5e7d2ab4b8ae4eb5d9421b88800000000"/>
 		<Metadata name="Constant.СкрыватьПросмотренныеСерии" id="a239cb0d-b8a9-4551-8da4-edaaf406dbb5" configVersion="bedf0e8fb3458f4e89fde35b0ae2b2de00000000"/>
 		<Metadata name="Constant.СтильОформления" id="b37513ee-1c7e-49ef-9f62-fd03eae68fd4" configVersion="17d75f14875cd343907fcf667f2a0c0800000000"/>
 		<Metadata name="Constant.ЯД_ID_Приложения" id="2370ad9b-4acf-4fa8-ae1a-26b71496e222" configVersion="eb07f078c3cb0b41b210017dc24f6b2f00000000"/>

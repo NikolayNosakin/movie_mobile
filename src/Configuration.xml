@@ -53,7 +53,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>2.3.0.2</Version>
+			<Version>2.3.1.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/movie_mobile</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -296,9 +296,9 @@
 			<Constant>ЯД_ПарольПриложения</Constant>
 			<Constant>ЯД_СрокДействияТокена</Constant>
 			<Constant>ЯД_Токен</Constant>
-			<Constant>СериалыПреобразованы</Constant>
 			<Constant>ВысотаШрифтаСписка</Constant>
 			<Constant>ВыводитьКнопкиЖанровИСтранВСписокКино</Constant>
+			<Constant>ПроверкаНаДубльПоКодуКинопоиска</Constant>
 			<CommonForm>ВходПоПаролю</CommonForm>
 			<CommonForm>Настройки</CommonForm>
 			<CommonForm>ЯДФормаАвторизации</CommonForm>

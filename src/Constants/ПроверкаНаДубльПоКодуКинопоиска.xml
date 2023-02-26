@@ -1,30 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<Constant uuid="8e522db5-2d40-4a53-bd96-ac55b7d56c81">
+	<Constant uuid="456d8dfe-cdb9-4eac-a98a-7d3833088ad8">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.СериалыПреобразованы" category="Manager">
-				<xr:TypeId>d85e9619-816a-4d6f-8616-1c003be7f489</xr:TypeId>
-				<xr:ValueId>9d29575b-4dea-4014-975d-28694ec10230</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.ПроверкаНаДубльПоКодуКинопоиска" category="Manager">
+				<xr:TypeId>0c3fedc6-5b8e-467b-b281-a8ff22b26d59</xr:TypeId>
+				<xr:ValueId>ca0bea6e-c1d8-4c3e-897e-3cc60b51b769</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.СериалыПреобразованы" category="ValueManager">
-				<xr:TypeId>9ad61446-d440-4c4c-9d95-8dd511589764</xr:TypeId>
-				<xr:ValueId>6dcbdda9-58ca-496c-8621-874830b2cde1</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.ПроверкаНаДубльПоКодуКинопоиска" category="ValueManager">
+				<xr:TypeId>4291d0aa-5437-412a-bf5a-0d99dcd89767</xr:TypeId>
+				<xr:ValueId>7d5c35dd-fd3e-4dbe-a791-d25c51151532</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueKey.СериалыПреобразованы" category="ValueKey">
-				<xr:TypeId>5ff89258-fbc4-4c63-9ed7-58fbc1612623</xr:TypeId>
-				<xr:ValueId>940c30bc-7929-4d2d-ad17-c63ae1103b58</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueKey.ПроверкаНаДубльПоКодуКинопоиска" category="ValueKey">
+				<xr:TypeId>d05d0221-17be-4abc-8445-ac877935e781</xr:TypeId>
+				<xr:ValueId>0abb3b64-720c-4a26-bd00-90f3893430a8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СериалыПреобразованы</Name>
+			<Name>ПроверкаНаДубльПоКодуКинопоиска</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сериалы преобразованы</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>TV series transformed</v8:content>
+					<v8:content>Проверка на дубль по коду кинопоиска</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
