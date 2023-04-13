@@ -31,8 +31,8 @@
 		<Metadata name="Catalog.Страны" id="57e9b420-61a6-4167-b153-06002ee6775f" configVersion="6d8f0dc1f7b83e4192d3597cb2a73f1b00000000"/>
 		<Metadata name="CommonForm.ВходПоПаролю" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620" configVersion="36f0f05cdcc692419d72814de779bcfc00000000"/>
 		<Metadata name="CommonForm.ВходПоПаролю.Form" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620.0" configVersion="6fbd44c784e92849adbfee84f6ff8f5200000000"/>
-		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="b1f509e68dbf274a8387f4f14b2f283400000000"/>
-		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="f949bc6e26fd7e4591cb55d61f794b9700000000"/>
+		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="f2305b13b3f5c741933ee0a1bb55448300000000"/>
+		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="65e321499eb8d342aac6b2bb11a6d09800000000"/>
 		<Metadata name="CommonForm.ФормаВводаСсылкиКинопоиск" id="aaa4b307-2d4c-460b-84b2-da1b5d8bb9b0" configVersion="502261d88ee92f439aa901d17dc85ba700000000"/>
 		<Metadata name="CommonForm.ФормаВводаСсылкиКинопоиск.Form" id="aaa4b307-2d4c-460b-84b2-da1b5d8bb9b0.0" configVersion="b0facef5f470274f866c4dc53ad99d4f00000000"/>
 		<Metadata name="CommonForm.ФормаПодбораСпискаЗначений" id="a7a3395c-069e-428b-bc0c-33db5622b497" configVersion="e3d070fa41561445b8fdcdecf01337a800000000"/>
