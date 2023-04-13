@@ -53,7 +53,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>2.3.1.2</Version>
+			<Version>2.3.2.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/movie_mobile</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
