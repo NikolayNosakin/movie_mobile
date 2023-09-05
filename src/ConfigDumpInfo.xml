@@ -2,7 +2,7 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="Catalog.Жанры" id="5f67b1f9-dd2f-4bf9-87a8-fa51227119ec" configVersion="0c8618a5f90f9f488ebc5f695121443f00000000"/>
-		<Metadata name="Catalog.Кино" id="f60fdffa-cd0a-469a-8607-8a0b28b1f12a" configVersion="e6cbaf503fec6941889bbcded89545d000000000">
+		<Metadata name="Catalog.Кино" id="f60fdffa-cd0a-469a-8607-8a0b28b1f12a" configVersion="80ee26d1b140974a8da9038dab4b6fe000000000">
 			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.ДатаВыходаСерии" id="01f3b84f-df93-4de9-a613-7d60b253396d"/>
 			<Metadata name="Catalog.Кино.TabularSection.Серии.Attribute.Просмотрена" id="1245109a-53f2-4887-a113-d4039d49057a"/>
 			<Metadata name="Catalog.Кино.Attribute.ГодОкончания" id="190d0f5a-3a94-4c79-9a1b-827c13d49c7d"/>
@@ -49,8 +49,8 @@
 		<Metadata name="CommonModule.СлужебноеСервер.Module" id="1530a2fd-592e-4b72-91d2-f1e4120e7d83.0" configVersion="602ffea0f27bcc4897f578749b2a2b3400000000"/>
 		<Metadata name="CommonModule.СохранениеВосстановлениеДанныхСервер" id="83dbe358-56ce-42e8-b0f1-4e083a0f99b1" configVersion="7409b6904d143443ae7452ed158aeaac00000000"/>
 		<Metadata name="CommonModule.СохранениеВосстановлениеДанныхСервер.Module" id="83dbe358-56ce-42e8-b0f1-4e083a0f99b1.0" configVersion="bf48a47504a9ec4f8f02975885802ebb00000000"/>
-		<Metadata name="CommonModule.ЯндексДискОбменДанными" id="e526e720-b569-453a-8e40-269c0ab60238" configVersion="3873d19ca26a8b409f65183ee962f2d800000000"/>
-		<Metadata name="CommonModule.ЯндексДискОбменДанными.Module" id="e526e720-b569-453a-8e40-269c0ab60238.0" configVersion="1993021c51593f4d8a737a87a3e855a900000000"/>
+		<Metadata name="CommonModule.ЯндексДискОбменДанными" id="e526e720-b569-453a-8e40-269c0ab60238" configVersion="d5786b1ca1e5034dacf27e554b58a8cf00000000"/>
+		<Metadata name="CommonModule.ЯндексДискОбменДанными.Module" id="e526e720-b569-453a-8e40-269c0ab60238.0" configVersion="412386e390475643bab9271ebb5f84c500000000"/>
 		<Metadata name="CommonPicture.БуферОбменаВставить" id="9e259658-91e9-4c93-afa1-b164eeeeb07b" configVersion="3c31e0bc87539d49b16aadb9697364f400000000"/>
 		<Metadata name="CommonPicture.БуферОбменаВставить.Picture" id="9e259658-91e9-4c93-afa1-b164eeeeb07b.0" configVersion="6ffed98bbac42f44ac07305250898c0c00000000"/>
 		<Metadata name="CommonPicture.ГлазЗакрытый" id="3da0d0ad-3d5d-4a64-bc1d-5bad1bac5bf5" configVersion="1e654de26628424e9fa0eec72be7269700000000"/>
