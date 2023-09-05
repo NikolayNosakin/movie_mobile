@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<HorizontalSpacing>None</HorizontalSpacing>
 	<VerticalSpacing>None</VerticalSpacing>
 	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
@@ -67,8 +67,8 @@
 						<Event name="OnChange">КонстантыПриИзменении</Event>
 					</Events>
 				</CheckBoxField>
-				<InputField name="Стиль" id="4">
-					<DataPath>Стиль</DataPath>
+				<InputField name="СтильОформления" id="4">
+					<DataPath>СтильОформления</DataPath>
 					<SkipOnInput>true</SkipOnInput>
 					<DropListButton>true</DropListButton>
 					<ChoiceButton>false</ChoiceButton>
@@ -80,10 +80,10 @@
 					<QuickChoice>true</QuickChoice>
 					<TextEdit>false</TextEdit>
 					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
-					<ContextMenu name="СтильКонтекстноеМеню" id="5"/>
-					<ExtendedTooltip name="СтильРасширеннаяПодсказка" id="6"/>
+					<ContextMenu name="СтильОформленияКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="СтильОформленияРасширеннаяПодсказка" id="6"/>
 					<Events>
-						<Event name="OnChange">СтильПриИзменении</Event>
+						<Event name="OnChange">КонстантаПерезапускПриИзменении</Event>
 					</Events>
 				</InputField>
 				<InputField name="ВысотаШрифтаСписка" id="87">
@@ -404,7 +404,7 @@
 					<ContextMenu name="ВыводитьКнопкиЖанровИСтранВСписокКиноКонтекстноеМеню" id="91"/>
 					<ExtendedTooltip name="ВыводитьКнопкиЖанровИСтранВСписокКиноРасширеннаяПодсказка" id="92"/>
 					<Events>
-						<Event name="OnChange">КонстантыПриИзменении</Event>
+						<Event name="OnChange">КонстантаПерезапускПриИзменении</Event>
 					</Events>
 				</CheckBoxField>
 				<CheckBoxField name="ПроверкаНаДубльПоКодуКинопоиска" id="93">
@@ -697,7 +697,7 @@
 		</PictureDecoration>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Стиль" id="2">
+		<Attribute name="СтильОформления" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
