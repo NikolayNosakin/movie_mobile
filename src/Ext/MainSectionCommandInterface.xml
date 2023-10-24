@@ -36,6 +36,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Constant.ВыводитьКнопкиЖанровИСтранВСписокКино.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.ВысотаШрифтаСписка.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -61,12 +66,12 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.РезервноеКопированиеНаЯндексДиск.StandardCommand.Open">
+		<Command name="Constant.ПроверкаНаДубльПоКодуКинопоиска.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="100:8e522db5-2d40-4a53-bd96-ac55b7d56c81">
+		<Command name="Constant.РезервноеКопированиеНаЯндексДиск.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

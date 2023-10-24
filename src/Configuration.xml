@@ -53,7 +53,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>2.3.3.1</Version>
+			<Version>2.3.4.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/movie_mobile</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -307,6 +307,7 @@
 			<CommonModule>СлужебноеКлиент</CommonModule>
 			<CommonModule>СлужебноеСервер</CommonModule>
 			<CommonModule>СлужебноеВызовСервера</CommonModule>
+			<CommonModule>ОбщегоНазначения</CommonModule>
 			<FunctionalOption>ИспользуетсяЗаполнениеИзКинопоискаПоАПИ</FunctionalOption>
 			<FunctionalOption>СкрыватьПросмотренныеСерии</FunctionalOption>
 			<FunctionalOption>ВыводитьКнопкиЖанровИСтранВСписокКино</FunctionalOption>
@@ -330,6 +331,7 @@
 			<CommonForm>ЯДФормаАвторизации</CommonForm>
 			<CommonForm>ФормаПодбораСпискаЗначений</CommonForm>
 			<CommonForm>ФормаВводаСсылкиКинопоиск</CommonForm>
+			<CommonForm>ЯД_Инструкция</CommonForm>
 			<Catalog>Жанры</Catalog>
 			<Catalog>Кино</Catalog>
 			<Catalog>Страны</Catalog>

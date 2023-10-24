@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<LabelDecoration name="Пункт1" id="1">
+			<Title formatted="true">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заходим в свой аккаунт на Яндексе. Переходим по ссылке:
+&lt;link https://oauth.yandex.ru/client/new&gt;https://oauth.yandex.ru/client/new&lt;/&gt;</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Log in to your Yandex account. Click on the link:
+&lt;link https://oauth.yandex.ru/client/new&gt;https://oauth.yandex.ru/client/new&lt;/&gt;</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Пункт1КонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="Пункт1РасширеннаяПодсказка" id="3"/>
+		</LabelDecoration>
+		<LabelDecoration name="Пункт1_1" id="7">
+			<Title formatted="true">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполняем параметры аналогично скриншотам
+Redirect URL:
+&lt;link https://oauth.yandex.ru/verification_code&gt;https://oauth.yandex.ru/verification_code&lt;/&gt;</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in the parameters in the same way as the screenshots
+Redirect URL:
+&lt;link https://oauth.yandex.ru/verification_code&gt;https://oauth.yandex.ru/verification_code&lt;/&gt;</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Пункт1_1КонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="Пункт1_1РасширеннаяПодсказка" id="9"/>
+		</LabelDecoration>
+		<PictureDecoration name="Пункт2" id="4">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пункт2</v8:content>
+				</v8:item>
+			</Title>
+			<PictureSize>Proportionally</PictureSize>
+			<Picture>
+				<xr:Abs>Picture.jpg</xr:Abs>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="Пункт2КонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="Пункт2РасширеннаяПодсказка" id="6"/>
+		</PictureDecoration>
+		<PictureDecoration name="Пункт3" id="10">
+			<HorizontalStretch>false</HorizontalStretch>
+			<VerticalStretch>false</VerticalStretch>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пункт2</v8:content>
+				</v8:item>
+			</Title>
+			<PictureSize>AutoSize</PictureSize>
+			<Picture>
+				<xr:Abs>Picture.jpg</xr:Abs>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="Пункт3КонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="Пункт3РасширеннаяПодсказка" id="12"/>
+		</PictureDecoration>
+		<LabelDecoration name="Пункт1_2" id="16">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>It should turn out like this</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Должно получиться вот так</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Пункт1_2КонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="Пункт1_2РасширеннаяПодсказка" id="18"/>
+		</LabelDecoration>
+		<PictureDecoration name="Пункт4" id="13">
+			<HorizontalStretch>false</HorizontalStretch>
+			<VerticalStretch>false</VerticalStretch>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пункт2</v8:content>
+				</v8:item>
+			</Title>
+			<PictureSize>AutoSize</PictureSize>
+			<Picture>
+				<xr:Abs>Picture.jpg</xr:Abs>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="Пункт4КонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="Пункт4РасширеннаяПодсказка" id="15"/>
+		</PictureDecoration>
+		<LabelDecoration name="Пункт1_3" id="19">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нажимаем "Создать приложение"</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Click "Create an application"</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Пункт1_3КонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="Пункт1_3РасширеннаяПодсказка" id="21"/>
+		</LabelDecoration>
+		<LabelDecoration name="Пункт1_4" id="22">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В открывшемся окне мы получаем поля ClientID (ID приложения) и Client secret (Пароль приложения) для настроек данного приложения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>In the window that opens, we get the "ClientID" and "Client secret" fields for the settings of this application</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Пункт1_4КонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="Пункт1_4РасширеннаяПодсказка" id="24"/>
+		</LabelDecoration>
+		<PictureDecoration name="Пункт5" id="25">
+			<HorizontalStretch>false</HorizontalStretch>
+			<VerticalStretch>false</VerticalStretch>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пункт2</v8:content>
+				</v8:item>
+			</Title>
+			<PictureSize>AutoSize</PictureSize>
+			<Picture>
+				<xr:Abs>Picture.jpg</xr:Abs>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="Пункт5КонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="Пункт5РасширеннаяПодсказка" id="27"/>
+		</PictureDecoration>
+	</ChildItems>
+	<Attributes/>
+</Form>

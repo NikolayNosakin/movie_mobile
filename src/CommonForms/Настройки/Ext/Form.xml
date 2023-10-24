@@ -27,8 +27,6 @@
 					<Group>AlwaysHorizontal</Group>
 					<HorizontalSpacing>None</HorizontalSpacing>
 					<VerticalSpacing>None</VerticalSpacing>
-					<HorizontalAlign>Left</HorizontalAlign>
-					<VerticalAlign>Center</VerticalAlign>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -51,22 +49,13 @@
 						<Button name="СправкаАПИ" id="72">
 							<Type>UsualButton</Type>
 							<DefaultButton>true</DefaultButton>
-							<Height>2</Height>
+							<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 							<CommandName>Form.Command.СправкаАПИ</CommandName>
 							<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 							<ExtendedTooltip name="СправкаАПИРасширеннаяПодсказка" id="73"/>
 						</Button>
 					</ChildItems>
 				</UsualGroup>
-				<CheckBoxField name="СкрыватьПросмотренныеСерии" id="76">
-					<DataPath>СкрыватьПросмотренныеСерии</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="СкрыватьПросмотренныеСерииКонтекстноеМеню" id="77"/>
-					<ExtendedTooltip name="СкрыватьПросмотренныеСерииРасширеннаяПодсказка" id="78"/>
-					<Events>
-						<Event name="OnChange">КонстантыПриИзменении</Event>
-					</Events>
-				</CheckBoxField>
 				<InputField name="СтильОформления" id="4">
 					<DataPath>СтильОформления</DataPath>
 					<SkipOnInput>true</SkipOnInput>
@@ -398,6 +387,15 @@
 						<Event name="OnChange">КонстантыПриИзменении</Event>
 					</Events>
 				</InputField>
+				<CheckBoxField name="СкрыватьПросмотренныеСерии" id="76">
+					<DataPath>СкрыватьПросмотренныеСерии</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СкрыватьПросмотренныеСерииКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="СкрыватьПросмотренныеСерииРасширеннаяПодсказка" id="78"/>
+					<Events>
+						<Event name="OnChange">КонстантыПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
 				<CheckBoxField name="ВыводитьКнопкиЖанровИСтранВСписокКино" id="90">
 					<DataPath>ВыводитьКнопкиЖанровИСтранВСписокКино</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -419,7 +417,6 @@
 				<InputField name="ПарольДляВхода" id="64">
 					<DataPath>ПарольДляВхода</DataPath>
 					<SkipOnInput>true</SkipOnInput>
-					<TitleLocation>Top</TitleLocation>
 					<PasswordMode>true</PasswordMode>
 					<ChooseType>false</ChooseType>
 					<ContextMenu name="ПарольДляВходаКонтекстноеМеню" id="65"/>
@@ -476,26 +473,61 @@
 					<Representation>None</Representation>
 					<ExtendedTooltip name="НастройкиРезервногоКопированияЯДРасширеннаяПодсказка" id="18"/>
 					<ChildItems>
-						<InputField name="ЯД_ID_Приложения" id="19">
-							<DataPath>ЯД_ID_Приложения</DataPath>
-							<TitleLocation>Top</TitleLocation>
-							<HeightControlVariant>UseContentHeight</HeightControlVariant>
-							<ContextMenu name="ЯД_ID_ПриложенияКонтекстноеМеню" id="20"/>
-							<ExtendedTooltip name="ЯД_ID_ПриложенияРасширеннаяПодсказка" id="21"/>
-							<Events>
-								<Event name="OnChange">КонстантыПриИзменении</Event>
-							</Events>
-						</InputField>
-						<InputField name="ЯД_ПарольПриложения" id="22">
-							<DataPath>ЯД_ПарольПриложения</DataPath>
-							<TitleLocation>Top</TitleLocation>
-							<HeightControlVariant>UseContentHeight</HeightControlVariant>
-							<ContextMenu name="ЯД_ПарольПриложенияКонтекстноеМеню" id="23"/>
-							<ExtendedTooltip name="ЯД_ПарольПриложенияРасширеннаяПодсказка" id="24"/>
-							<Events>
-								<Event name="OnChange">КонстантыПриИзменении</Event>
-							</Events>
-						</InputField>
+						<UsualGroup name="Группа3" id="98">
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<United>false</United>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="99"/>
+							<ChildItems>
+								<UsualGroup name="Группа4" id="100">
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<United>false</United>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="101"/>
+									<ChildItems>
+										<InputField name="ЯД_ID_Приложения" id="19">
+											<DataPath>ЯД_ID_Приложения</DataPath>
+											<TitleLocation>Top</TitleLocation>
+											<HeightControlVariant>UseContentHeight</HeightControlVariant>
+											<ContextMenu name="ЯД_ID_ПриложенияКонтекстноеМеню" id="20"/>
+											<ExtendedTooltip name="ЯД_ID_ПриложенияРасширеннаяПодсказка" id="21"/>
+											<Events>
+												<Event name="OnChange">КонстантыПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="ЯД_ПарольПриложения" id="22">
+											<DataPath>ЯД_ПарольПриложения</DataPath>
+											<TitleLocation>Top</TitleLocation>
+											<HeightControlVariant>UseContentHeight</HeightControlVariant>
+											<ContextMenu name="ЯД_ПарольПриложенияКонтекстноеМеню" id="23"/>
+											<ExtendedTooltip name="ЯД_ПарольПриложенияРасширеннаяПодсказка" id="24"/>
+											<Events>
+												<Event name="OnChange">КонстантыПриИзменении</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа5" id="102">
+									<HorizontalStretch>true</HorizontalStretch>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Group>Vertical</Group>
+									<VerticalAlign>Center</VerticalAlign>
+									<Representation>None</Representation>
+									<United>false</United>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="103"/>
+									<ChildItems>
+										<Button name="СправкаЯндексДиск" id="104">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.СправкаЯндексДиск</CommandName>
+											<ExtendedTooltip name="СправкаЯндексДискРасширеннаяПодсказка" id="105"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ГруппаЯД1" id="34">
 							<Group>AlwaysHorizontal</Group>
 							<HorizontalSpacing>None</HorizontalSpacing>
@@ -600,7 +632,15 @@
 			</CommandSet>
 			<SearchStringLocation>None</SearchStringLocation>
 			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="СписокФайловКонтекстноеМеню" id="43"/>
+			<ContextMenu name="СписокФайловКонтекстноеМеню" id="43">
+				<ChildItems>
+					<Button name="СписокФайловУдалить" id="96">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Удалить</CommandName>
+						<ExtendedTooltip name="СписокФайловУдалитьРасширеннаяПодсказка" id="97"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
 			<AutoCommandBar name="СписокФайловКоманднаяПанель" id="44">
 				<Autofill>false</Autofill>
 			</AutoCommandBar>
@@ -735,7 +775,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Application ID</v8:content>
+					<v8:content>ClientID</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -754,7 +794,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Program password</v8:content>
+					<v8:content>Client secret</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1135,6 +1175,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СправкаАПИ</Action>
+		</Command>
+		<Command name="Удалить" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Удалить</Action>
+		</Command>
+		<Command name="СправкаЯндексДиск" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>?</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справка яндекс диск</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СправкаЯндексДиск</Action>
 		</Command>
 	</Commands>
 </Form>
