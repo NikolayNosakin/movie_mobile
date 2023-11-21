@@ -21,82 +21,82 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ЯД_ID_Приложения.StandardCommand.Open">
+		<Command name="100:2370ad9b-4acf-4fa8-ae1a-26b71496e222">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.kinopoisk_unofficial_api_token.StandardCommand.Open">
+		<Command name="100:f621c31c-62b8-4ecf-b0c2-8e0f176b3f02">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ВерсияПриложения.StandardCommand.Open">
+		<Command name="100:5666bd1a-d48e-4e08-9d59-d01ad6ae7156">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ВыводитьКнопкиЖанровИСтранВСписокКино.StandardCommand.Open">
+		<Command name="100:001ef07a-3a6d-4107-aebd-4928524317c5">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ВысотаШрифтаСписка.StandardCommand.Open">
+		<Command name="100:90ada267-db09-4acb-a5e3-ea8635114cce">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ИспользуетсяЗаполнениеИзКинопоискаПоАПИ.StandardCommand.Open">
+		<Command name="100:97252701-5aca-4d65-bfd3-38bcd8d5d897">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ЯД_КодАвторизации.StandardCommand.Open">
+		<Command name="100:b526af44-b078-4a15-8d80-2757e332c1e7">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ПарольДляВхода.StandardCommand.Open">
+		<Command name="100:eb8866fa-ec01-48d1-817a-00dd4fb2ad7e">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ЯД_ПарольПриложения.StandardCommand.Open">
+		<Command name="100:c22be832-5862-43e0-be73-d242ffe2ec10">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ПроверкаНаДубльПоКодуКинопоиска.StandardCommand.Open">
+		<Command name="100:456d8dfe-cdb9-4eac-a98a-7d3833088ad8">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.РезервноеКопированиеНаЯндексДиск.StandardCommand.Open">
+		<Command name="100:ad16ec5d-aae9-46a1-b999-52750be415c4">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.СкрыватьПросмотренныеСерии.StandardCommand.Open">
+		<Command name="100:a239cb0d-b8a9-4551-8da4-edaaf406dbb5">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ЯД_СрокДействияТокена.StandardCommand.Open">
+		<Command name="100:81d5eca2-885f-4617-98a4-6733e36041e5">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.СтильОформления.StandardCommand.Open">
+		<Command name="100:b37513ee-1c7e-49ef-9f62-fd03eae68fd4">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ЯД_Токен.StandardCommand.Open">
+		<Command name="100:4033e6f9-7f16-4388-98bb-2c0314675521">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonForm.ЯДФормаАвторизации.StandardCommand.Open">
+		<Command name="100:413af10e-3ebf-42db-9927-0c4e1362c3a7">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

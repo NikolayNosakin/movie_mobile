@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Constant uuid="168f789b-2fb9-4f3a-b540-aa20b95b52b2">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.МасштабФорм" category="Manager">
+				<xr:TypeId>00f9a07b-0755-4334-ac71-4005e04caca0</xr:TypeId>
+				<xr:ValueId>9d1bc57d-11e1-428a-86f2-3223e3ac4afd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.МасштабФорм" category="ValueManager">
+				<xr:TypeId>bae3b816-adc3-4ca6-9517-90ef596065b2</xr:TypeId>
+				<xr:ValueId>27c95a34-a13e-486b-a54a-27b858fa4764</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.МасштабФорм" category="ValueKey">
+				<xr:TypeId>fc786012-802b-4778-a2fb-44e40a18f3b9</xr:TypeId>
+				<xr:ValueId>006269f0-7c10-4070-a94b-e412df179c1f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МасштабФорм</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Масштаб форм</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<UseStandardCommands>false</UseStandardCommands>
+			<DefaultForm/>
+			<ExtendedPresentation/>
+			<Explanation/>
+			<PasswordMode>false</PasswordMode>
+			<Format>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>БЛ=Обычный; БИ=Компактный</v8:content>
+				</v8:item>
+			</Format>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>БЛ=Обычный; БИ=Компактный</v8:content>
+				</v8:item>
+			</EditFormat>
+			<ToolTip/>
+			<MarkNegatives>false</MarkNegatives>
+			<Mask/>
+			<MultiLine>false</MultiLine>
+			<ExtendedEdit>false</ExtendedEdit>
+			<MinValue xsi:nil="true"/>
+			<MaxValue xsi:nil="true"/>
+			<FillChecking>DontCheck</FillChecking>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameterLinks/>
+			<ChoiceParameters/>
+			<QuickChoice>Auto</QuickChoice>
+			<ChoiceForm/>
+			<LinkByType/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+	</Constant>
+</MetaDataObject>
